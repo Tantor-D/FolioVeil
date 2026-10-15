@@ -1,0 +1,6 @@
+@layer components {
+  .root-HUUPVC:has(> button[aria-pressed="true"]:focus-visible) > button[aria-pressed="true"]:focus-visible { outline: none; }
+  .root-HUUPVC:has(> button[aria-pressed="true"]:focus-visible) > .indicator-zrk55u { outline: -webkit-focus-ring-color auto; }
+  .indicator-zrk55u { --mode-toggle-direction: 1; border: .5px solid var(--color-border-mode-toggle-selected); background-color: var(--color-background-mode-toggle-selected); width: calc(100% + 9px); box-shadow: var(--shadow-mode-toggle-selected); margin-block: -0.5px; margin-inline-start: -0.5px; }
+  .indicator-zrk55u:is(:lang(ae), :lang(ar), :lang(arc), :lang(bcc), :lang(bqi), :lang(ckb), :lang(dv), :lang(fa), :lang(glk), :lang(he), :lang(ku), :lang(mzn), :lang(nqo), :lang(pnb), :lang(ps), :lang(sd), :lang(ug), :lang(ur), :lang(yi)) { --mode-toggle-direction: -1; }
+}

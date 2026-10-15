@@ -1,0 +1,30 @@
+{
+  "name": "folioveil",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node tooling/build-extension.mjs",
+    "dev": "node tooling/build-extension.mjs --watch",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "check": "npm run typecheck && npm run test && npm run build",
+    "preview": "npm run build && node tooling/preview.mjs",
+    "validate:arxiv": "node tooling/validate-arxiv.mjs",
+    "theme:compile": "node tooling/compile-theme.mjs"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.321",
+    "@types/node": "^22.15.3",
+    "esbuild": "^0.25.4",
+    "jsdom": "^26.1.0",
+    "postcss": "8.5.28",
+    "typescript": "^5.8.3",
+    "vitest": "^3.1.3"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tantor-D/FolioVeil.git"
+  }
+}

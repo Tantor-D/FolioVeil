@@ -1,0 +1,37 @@
+:root { color-scheme: light dark; font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+* { box-sizing: border-box; }
+body { width: 340px; max-height: 600px; margin: 0; overflow-y: auto; color: #242426; background: #f7f7f8; }
+main { padding: 16px; }
+header { display: flex; align-items: center; gap: 10px; margin-bottom: 14px; }
+header > div { display: grid; gap: 2px; }
+header strong { font-size: 15px; }
+header small { color: #777780; }
+.mark { display: grid; place-items: center; width: 32px; height: 32px; color: #fff; background: #386b5f; border-radius: 9px; font-weight: 700; }
+.disclosure, .status-card { padding: 13px; background: #fff; border: 1px solid #dedee3; border-radius: 11px; }
+.disclosure strong { font-size: 12px; }
+.disclosure p { margin: 6px 0 0; color: #686871; font-size: 11px; line-height: 1.5; }
+.status-card { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-top: 10px; }
+.status-card > div { display: flex; align-items: center; gap: 7px; min-width: 0; font-size: 12px; }
+.status-dot { width: 7px; height: 7px; flex: 0 0 auto; background: #b0b0b6; border-radius: 50%; }
+.status-dot[data-active="true"] { background: #3b8d73; box-shadow: 0 0 0 3px #dff2eb; }
+button { font: inherit; cursor: pointer; }
+#toggleButton { padding: 7px 10px; color: #fff; background: #386b5f; border: 0; border-radius: 8px; font-size: 11px; }
+button:disabled { opacity: .45; cursor: not-allowed; }
+.wide { width: 100%; margin-top: 10px; padding: 10px; border-radius: 9px; }
+.secondary { color: #343438; background: #fff; border: 1px solid #d8d8de; }
+.help-panel { margin-top: 10px; padding: 13px; background: #fff; border: 1px solid #dedee3; border-radius: 11px; font-size: 12px; line-height: 1.6; }
+.help-panel h2 { margin: 0 0 7px; font-size: 13px; }
+.help-panel h2:not(:first-child) { margin-top: 13px; }
+.help-panel ol { margin: 0; padding-left: 18px; }
+.help-panel li + li, .help-panel p { margin-top: 7px; }
+.help-panel p { margin-bottom: 0; }
+.help-panel .help-note { color: #686871; }
+.link { display: block; margin: 12px auto 0; color: #666670; background: transparent; border: 0; font-size: 11px; }
+.reconnect { margin-top: 14px; padding-top: 12px; border-top: 1px solid #dedee3; font-size: 12px; }
+.reconnect p { color: #686871; font-size: 11px; line-height: 1.5; }
+.reconnect select { width: 100%; padding: 8px; font: inherit; color: inherit; background: transparent; border: 1px solid #d8d8de; border-radius: 7px; }
+@media (prefers-color-scheme: dark) {
+  body { color: #ececf1; background: #202123; }
+  .disclosure, .status-card, .secondary, .help-panel { color: #ececf1; background: #2b2c2f; border-color: #414247; }
+  .disclosure p, header small, .link, .reconnect p, .help-panel .help-note { color: #aaaab3; }
+}

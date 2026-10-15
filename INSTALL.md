@@ -2,11 +2,9 @@
 
 适用于桌面版 Microsoft Edge 和 Google Chrome。无需编程工具；下载已经构建好的插件 ZIP 即可安装。主要实站验证使用 Edge。
 
-**当前尚未发布插件 ZIP；以下步骤适用于发布后的安装包。**
-
 ## 1. 下载并解压
 
-1. 打开 [最新版下载页面](https://github.com/Tantor-D/FolioVeil/releases)。
+1. 打开 [最新版下载页面](https://github.com/Tantor-D/FolioVeil/releases/latest)。
 2. 在 **Assets** 中下载 `FolioVeil-1.0.0-chromium.zip`。不要选择 **Source code (zip)** 或 **Source code (tar.gz)**，它们是尚未构建的源码。
 3. 将 ZIP 完整解压到准备长期保留的文件夹，例如“文档/FolioVeil”。不要直接在压缩包里打开文件。
 4. 找到直接包含 `manifest.json`、`reader.html` 和 `popup.html` 的目录；下一步选择这个目录。

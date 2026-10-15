@@ -1,0 +1,142 @@
+{
+  "id": "neutral-chatgpt-fixture",
+  "title": "FolioVeil 中性排版样本 050。请只输出中文排版示例，不使用任何个人资料，不做网页搜索。主题是整理书桌。请依次包含：一级到六级标题各一个；一个约300字的普通长段落（含加粗、斜体与行内代码）；一个短段落；一段引用；三项有序列表；三项无序列表；两列三行的简单表格；一个含3行的 Python 代码块；一段含真正排版的行内数学公式 \\(a^2+b^2=c^2\\) 的文字，以及真正排版的独立数学公式 \\[E=mc^2\\]（请用反斜杠加括号/方括号的数学分隔符，不要用美元符号或代码块展示公式源码）。最后请用普通 Markdown 图片语法展示这张公开中性图片，地址为 https://www.w3.org/Icons/w3c_home.png ，替代文字为“中性标志”。不要新增其他内容。",
+  "source": {
+    "kind": "fixture"
+  },
+  "blocks": [
+    {
+      "id": "neutral-1",
+      "type": "heading",
+      "level": 1,
+      "html": "<span>整理书桌</span>"
+    },
+    {
+      "id": "neutral-2",
+      "type": "heading",
+      "level": 2,
+      "html": "<span>清理桌面</span>"
+    },
+    {
+      "id": "neutral-3",
+      "type": "heading",
+      "level": 3,
+      "html": "<span>分类物品</span>"
+    },
+    {
+      "id": "neutral-4",
+      "type": "heading",
+      "level": 4,
+      "html": "<span>安排位置</span>"
+    },
+    {
+      "id": "neutral-5",
+      "type": "heading",
+      "level": 5,
+      "html": "<span>收纳细节</span>"
+    },
+    {
+      "id": "neutral-6",
+      "type": "heading",
+      "level": 6,
+      "html": "<span>日常维护</span>"
+    },
+    {
+      "id": "neutral-7",
+      "type": "paragraph",
+      "html": "<span>整理书桌可以从清空桌面开始，把书籍、文具、纸张、电子设备和零散物品暂时集中到一处，再按照使用频率逐一分类。经常使用的物品应放在伸手可及的位置，不常使用的则可以收入抽屉或收纳盒。整理时，不必追求桌面</span><strong class=\"font-semibold\"><span>完全空无一物</span></strong><span>，重点是让每件物品都有固定位置，并减少寻找东西所需的时间。对于暂时无法确定去留的物品，可以设置一个</span><em><span>待处理区域</span></em><span>，稍后统一决定。数据线、充电器等容易缠绕的物品可以分别固定，并用简单标签标明用途，例如使用行内标记 </span><span data-markdown-copy=\"inline-code\" class=\"inline-markdown InlineMarkdownIsolate-QWDV4W\" dir=\"ltr\">充电线</span><span> 作为分类名称。完成基础整理后，再擦拭桌面、键盘和显示器周围的灰尘，并检查照明与坐姿空间是否舒适。每天结束使用书桌时，只需花几分钟把书本归位、废纸丢弃、杯子移走，就能避免杂物再次累积，使桌面长期保持清楚、稳定而方便使用的状态。</span>"
+    },
+    {
+      "id": "neutral-8",
+      "type": "paragraph",
+      "html": "<span>整洁的书桌不一定物品很少，而是物品的位置清楚，使用之后能够方便地放回原处。</span>"
+    },
+    {
+      "id": "neutral-9",
+      "type": "quote",
+      "html": "<span>给每件常用物品安排固定位置，可以减少反复整理所花费的时间。</span>"
+    },
+    {
+      "id": "neutral-10",
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "<span>清空桌面并擦拭表面。</span>",
+        "<span>按照用途和使用频率分类。</span>",
+        "<span>将物品放回固定的收纳位置。</span>"
+      ]
+    },
+    {
+      "id": "neutral-11",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "<span>书籍与笔记本</span>",
+        "<span>文具与纸张</span>",
+        "<span>电子设备与线材</span>"
+      ]
+    },
+    {
+      "id": "neutral-12",
+      "type": "table",
+      "html": "<table class=\"Table-LqdUhs\" dir=\"auto\"><thead><tr class=\"TableRow-ENsaGm\"><th class=\"TableHeaderCell-esYSpn SingleChildTableCell-Sv7jTC\" dir=\"auto\" data-col-size=\"sm\"><span>类别</span></th><th class=\"TableHeaderCell-esYSpn SingleChildTableCell-Sv7jTC\" dir=\"auto\" data-col-size=\"sm\"><span>位置</span></th></tr></thead><tbody class=\"TableBody-A5sMNL\"><tr class=\"TableRow-ENsaGm\"><td class=\"TableCell-WcsygL SingleChildTableCell-Sv7jTC\" dir=\"auto\" data-col-size=\"sm\"><span>文具</span></td><td class=\"TableCell-WcsygL SingleChildTableCell-Sv7jTC\" dir=\"auto\" data-col-size=\"sm\"><span>桌面收纳盒</span></td></tr><tr class=\"TableRow-ENsaGm\"><td class=\"TableCell-WcsygL SingleChildTableCell-Sv7jTC\" dir=\"auto\" data-col-size=\"sm\"><span>文件</span></td><td class=\"TableCell-WcsygL SingleChildTableCell-Sv7jTC\" dir=\"auto\" data-col-size=\"sm\"><span>侧边文件架</span></td></tr></tbody></table>"
+    },
+    {
+      "id": "neutral-13",
+      "type": "code",
+      "text": "items = [\"书籍\", \"文具\", \"文件\"]\nfor item in items:\n    print(item)"
+    },
+    {
+      "id": "neutral-14",
+      "type": "paragraph",
+      "html": "<span>整理空间时，也可以用数学关系作为排版示例，例如直角三角形满足 </span><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup><mo>=</mo><msup><mi>c</mi><mn>2</mn></msup></mrow><annotation encoding=\"application/x-tex\">a^2+b^2=c^2</annotation></semantics></math><span>，这类行内公式可以自然嵌入普通文字之中。</span>"
+    },
+    {
+      "id": "neutral-15",
+      "type": "math",
+      "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><semantics><mrow><mi>E</mi><mo>=</mo><mi>m</mi><msup><mi>c</mi><mn>2</mn></msup></mrow><annotation encoding=\"application/x-tex\">E=mc^2</annotation></semantics></math>",
+      "text": "E=mc^2"
+    },
+    {
+      "id": "neutral-16",
+      "type": "image",
+      "src": "/themes/chatgpt/assets/a6c475e7613a8fc54ab2abb6.png",
+      "label": "中性标志",
+      "caption": "",
+      "resourceKind": "image"
+    }
+  ],
+  "toc": [
+    {
+      "id": "neutral-1",
+      "label": "整理书桌",
+      "level": 1
+    },
+    {
+      "id": "neutral-2",
+      "label": "清理桌面",
+      "level": 2
+    },
+    {
+      "id": "neutral-3",
+      "label": "分类物品",
+      "level": 3
+    },
+    {
+      "id": "neutral-4",
+      "label": "安排位置",
+      "level": 4
+    },
+    {
+      "id": "neutral-5",
+      "label": "收纳细节",
+      "level": 5
+    },
+    {
+      "id": "neutral-6",
+      "label": "日常维护",
+      "level": 6
+    }
+  ],
+  "warnings": []
+}

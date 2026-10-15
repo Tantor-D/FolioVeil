@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>原站 · 连续阅读与信息节奏</title></head>
+<body>
+<nav>论文资料站 · 搜索 · 我的收藏</nav>
+<article class="ltx_document" data-folioveil-paper="reading-rhythm">
+  <h1 class="ltx_title ltx_title_document">连续阅读中的信息节奏：面向长文的渐进式内容呈现与注意力保护</h1>
+  <div class="ltx_authors">FolioVeil 自制验证样本 · 2026</div>
+  <section id="abstract">
+    <h2>摘要</h2>
+    <p id="abstract-p1">阅读长篇资料时，我们需要在<strong>保持上下文连续</strong>与控制视觉信息密度之间取得平衡。本文以一个本地运行的内容展示模型为例，讨论段落、公式、表格与插图如何进入同一条自然的阅读流。样本中的文字、实验数据和插图均为演示而创作，不对应真实研究结论。</p>
+    <p id="abstract-p2">我们将阅读内容和操作控件分离：标题构成对话的起点，正文沿单栏依次展开，辅助控件仅在需要时出现。图片提供按需查看、小尺寸预览与完整呈现三种方式，使读者能够自行选择合适的信息密度。</p>
+  </section>
+  <section id="introduction">
+    <h2>1 引言</h2>
+    <p id="intro-p1">一篇论文的意义不仅来自句子本身，也来自句子之间的顺序与联系。读者可能在一个段落里形成问题，在下一个公式中发现定义，再通过图表理解变量之间的关系。如果这些内容在切换页面时被替换或打散，工作记忆便需要重新建立上下文。</p>
+    <p id="intro-p2">因此，本文采用<em>先保持内容，再调整展示</em>的原则。重新排版不改变作者表达，不增加未经来源支持的摘要，也不把普通段落机械转成列表。参考文献编号仍放在原有位置，例如<a href="#reference-1">[1]</a>；需要查看某幅插图时，可从文字标记进入独立的临时预览。</p>
+    <p id="intro-p3">正文的行长、字号与段间距共同决定阅读节奏。过宽的行会增加视线回到下一行起点的成本，而过窄的行可能切碎复杂的论证。我们的自制样本将正文限制在适中的宽度，并让表格与公式在各自区域内处理宽内容。</p>
+    <blockquote id="quote-1">良好的阅读界面应当帮助读者留在文字里：当操作完成，界面再次安静下来，已经建立的阅读位置仍然保留。</blockquote>
+  </section>
+  <section id="model">
+    <h2>2 内容模型</h2>
+    <p id="model-p1">设文档由有序内容块组成，记为 <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>D</mi><mo>=</mo><mo>{</mo><msub><mi>b</mi><mn>1</mn></msub><mo>,</mo><msub><mi>b</mi><mn>2</mn></msub><mo>,</mo><mo>…</mo><mo>,</mo><msub><mi>b</mi><mi>n</mi></msub><mo>}</mo></math>。每个内容块具有稳定标识与语义类型。段落、列表、图片和公式可以共享顺序，但不共享同一种视觉处理策略。</p>
+    <h3>2.1 阅读负担的示意表达</h3>
+    <p id="model-p2">为便于解释，我们使用下面的示意公式描述同时可见的信息负担。这里的系数与取值仅用于展示公式排版，并非测量结果。图像的可见程度由读者选择，而段落内容始终保持完整。</p>
+    <div class="ltx_equation" id="equation-1"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block" alttext="L = alpha T + beta I + gamma C"><mi>L</mi><mo>=</mo><mi>α</mi><mi>T</mi><mo>+</mo><mi>β</mi><mi>I</mi><mo>+</mo><mi>γ</mi><mi>C</mi></math><span>（1）</span></div>
+    <p id="model-p3">其中，<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>T</mi></math> 表示文字密度，<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>I</mi></math> 表示图片的可见面积，<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>C</mi></math> 表示同时出现的操作控件数量。即使将图片切换为文字标记，公式与正文中的符号仍然是可读的文本结构。</p>
+    <figure id="figure-1">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 340" width="760" height="340" role="img" aria-label="信息密度与阅读阶段的示意图">
+        <rect width="760" height="340" rx="20" fill="#f2f6f3"/>
+        <text x="42" y="46" fill="#304b42" font-size="19" font-family="sans-serif">Reading rhythm / 阅读节奏</text>
+        <line x1="65" y1="275" x2="702" y2="275" stroke="#9bac9f" stroke-width="1"/>
+        <line x1="65" y1="90" x2="65" y2="275" stroke="#9bac9f" stroke-width="1"/>
+        <line x1="65" y1="180" x2="702" y2="180" stroke="#dce4dd" stroke-width="1"/>
+        <path d="M65 235 C125 230 150 136 208 148 S303 217 359 177 S461 106 509 126 S612 170 702 96" fill="none" stroke="#477f68" stroke-width="5" stroke-linecap="round"/>
+        <path d="M65 247 C150 244 188 205 260 221 S381 197 438 216 S578 187 702 205" fill="none" stroke="#b0bdb4" stroke-width="3" stroke-dasharray="7 8"/>
+        <circle cx="359" cy="177" r="7" fill="#477f68"/>
+        <text x="376" y="166" fill="#304b42" font-size="14" font-family="sans-serif">按需查看图表</text>
+        <text x="65" y="307" fill="#748378" font-size="13" font-family="sans-serif">开始阅读</text>
+        <text x="605" y="307" fill="#748378" font-size="13" font-family="sans-serif">上下文逐步建立</text>
+      </svg>
+      <figcaption><span class="ltx_tag">图 1：</span>信息密度随阅读过程变化的自制示意图。深色曲线代表主动展开图片时的信息变化，虚线代表较低视觉密度的连续阅读。该图不表达真实实验测量。</figcaption>
+    </figure>
+    <p id="model-p4">如<a href="#figure-1">图 1</a>所示，阅读并不总是要求全部信息同时出现。文本提供连续的论证路径，图片在需要时补充细节。关闭预览后，读者返回原先的段落，而不是被带回文章开头。</p>
+    <h3>2.2 稳定标识与顺序</h3>
+    <ul id="principles"><li><strong>稳定标识：</strong>相同内容批次不会重复追加，不同位置的相同句子仍被保留。</li><li><strong>顺序一致：</strong>图号、图注、公式与正文按照来源中的顺序进入阅读流。</li><li><strong>临时状态：</strong>展开的图片、操作面板与选中文字只属于当前会话。</li></ul>
+    <p id="model-p5">需要特别区分“内容相同”和“身份相同”。论文可能为了推导再次写出同一公式，也可能在结论中重申引言中的句子。仅通过文本比较去除重复内容，会破坏作者本来的结构。</p>
+  </section>
+  <section id="experiment">
+    <h2>3 展示条件与观察</h2>
+    <p id="experiment-p1">我们设置三种图片展示条件，检查它们是否作用于同一份内容模型。所有条件保留图号和阅读位置；区别仅在于图片是否自动显示，以及显示时占用的空间。表 1 的数值均为自制测试值，便于验证宽表格在窄屏上的呈现。</p>
+    <figure class="ltx_table" id="table-1"><table class="ltx_tabular"><thead><tr><th>展示条件</th><th>文字连续性</th><th>默认图片面积</th><th>操作后状态</th><th>示意任务 A</th><th>示意任务 B</th><th>示意任务 C</th><th>示意任务 D</th></tr></thead><tbody><tr><td>文字标记</td><td>保持</td><td>0</td><td>返回标记</td><td>0.84 ± 0.03</td><td>0.79 ± 0.04</td><td>0.88 ± 0.02</td><td>0.81 ± 0.03</td></tr><tr><td>缩略图</td><td>保持</td><td>160 × 120 以内</td><td>返回缩略图</td><td>0.86 ± 0.02</td><td>0.80 ± 0.03</td><td>0.87 ± 0.03</td><td>0.83 ± 0.02</td></tr><tr><td>完整图片</td><td>保持</td><td>不超过正文宽度</td><td>返回正文图片</td><td>0.85 ± 0.04</td><td>0.82 ± 0.03</td><td>0.89 ± 0.02</td><td>0.82 ± 0.04</td></tr></tbody></table><figcaption><span class="ltx_tag">表 1：</span>三种展示条件的结构对照与虚构测试数据；用于检查表头、单元格及局部横向滚动，不构成研究结论。</figcaption></figure>
+    <p id="experiment-p2">第一项观察是切换前后段落位置是否连续。图片从完整尺寸变为文字标记时，页面总高度会明显缩短，因此只保留滚动条的绝对数值并不足够。更合适的办法是记录当前可见段落，以及该段落相对视口顶部的偏移。</p>
+    <p id="experiment-p3">第二项观察是临时操作是否会留下额外入口。一个已关闭的浮层不应继续接收键盘焦点，也不应留下覆盖在正文上的透明区域。读者仍需能够选择文字、使用滚轮，并点击正文里的图片标记。</p>
+    <p id="experiment-p4">第三项观察是离开窗口之后的行为。返回页面不意味着读者已经准备继续查看内容，因此临时预览和操作面板保持关闭，真实正文需要由明确的继续操作恢复。这一过程不修改持久的图片偏好。</p>
+    <figure id="figure-2"><img src="data:image/png;base64,broken" alt="这是一个特意设置的失败图片，它的完整描述不应该出现在禁止图片的正文标记或无障碍名称里。"><figcaption><span class="ltx_tag">图 2：</span>失败资源测试。此图故意使用无法解码的资源，以验证失败提示、重试和关闭路径；不能因为图片不可用而恢复整个原站页面。</figcaption></figure>
+    <h3>3.1 实现示意</h3>
+    <pre id="code-1"><code>const anchor = rememberVisibleParagraph();
+closeTemporaryPreview();
+renderContentWithImagePolicy(nextMode);
+restoreParagraphAnchor(anchor);</code></pre>
+    <p id="experiment-p5">以上代码只描述交互顺序。真实实现还应处理窗口失焦、内容更新与异步加载之间的竞争：旧文档产生的结果不能重新打开已经关闭的图片；已读段落也不能因为下一段仍在等待而被清空。</p>
+  </section>
+  <section id="discussion">
+    <h2>4 讨论与边界</h2>
+    <p id="discussion-p1">重新排版依赖来源提供可理解的内容结构。具有段落和数学标记的 HTML 页面适合按语义提取；仅包含整页图像的扫描件则不能被当作已经获得可复制正文的文档。识别失败时，应保留中性说明，并让用户明确决定是否回到来源页面。</p>
+    <p id="discussion-p2">本文样本也用于检查长文滚动。章节标题保留在正文中，文档标题仅在对话起点出现一次。阅读目录可以帮助定位，但无需常驻在屏幕边缘。读者在切换中性会话后，返回当前内容时仍应回到先前位置。</p>
+    <p id="discussion-p3">图注是图片上下文的一部分。仅隐藏像素却留下完整图注，仍然可能暴露与图片相关的信息。因此，在禁止自动展示图片的条件下，正文只保留简短图号；完整图注与图片一起进入临时查看层。</p>
+    <p id="discussion-p4">不同元素具有不同的阅读意义。公式并不等同于装饰性插图，表格也不是一张截图。当来源提供数学文本或结构化单元格时，应保留其意义与可选择性，而不是统一转换为位图。</p>
+  </section>
+  <section id="conclusion"><h2>5 结论</h2><p id="conclusion-p1">本文给出了一个自制的长文展示样本：稳定的内容顺序、独立的图片策略、按需出现的操作面板，以及能够保留阅读位置的临时状态。界面退到背景之后，读者可以把注意力重新放回段落之间的联系。</p><p id="conclusion-p2">后续验证应当分别检查内容正确性和真实交互效果。构建成功不能替代阅读顺序检查；一张稳定截图也不能说明刷新、失焦或图片切换过程中没有短暂露出。每一种来源都需要自己的验收记录。</p></section>
+  <section id="references"><h2>参考文献</h2><ul class="ltx_biblist"><li id="reference-1">[1] FolioVeil. 连续阅读与信息节奏验证资料. 自制样本，2026。此条目仅用于检验引用定位。</li><li id="reference-2">[2] FolioVeil. 内容展示、图片三态与隐私交互说明. 自制样本，2026。</li></ul></section>
+</article>
+<footer>原站页脚 · 联系方式 · 阅读设置</footer>
+</body>
+</html>

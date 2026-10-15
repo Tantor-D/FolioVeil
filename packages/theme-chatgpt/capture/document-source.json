@@ -1,0 +1,111 @@
+{
+  "format": "folioveil-captured-document-source",
+  "capture": "packages/theme-chatgpt/capture/neutral-0.9.0/home-english-dark-collapsed-full.json",
+  "assetCache": "packages/theme-chatgpt/capture/neutral-0.9.0/resources",
+  "tabIcons": {
+    "ico": "packages/theme-chatgpt/capture/tab-icon/favicon.ico",
+    "svg": "packages/theme-chatgpt/capture/tab-icon/favicon.svg"
+  },
+  "state": "home-english-dark-collapsed-full",
+  "selectors": {
+    "scroller": "main:has([data-local-slot=\"assistant\"]) .thread-scroll-container",
+    "sidebar": "[data-app-shell-left-panel-appearance]",
+    "conversationList": "div[role=\"list\"]:has([data-thread-title])",
+    "composer": "main:has([data-local-slot=\"assistant\"]) [data-composer-body]",
+    "sidebarItem": "div[role=\"list\"]:has([data-thread-title]) > [role=\"listitem\"]:first-child",
+    "sidebarItemContent": "[data-marquee-content] > span[dir=\"auto\"] > span",
+    "contentWidth": ".block-BQZwFn"
+  },
+  "blocks": {
+    "heading1": {
+      "selector": "[data-local-template=\"block-1\"]",
+      "contentSelector": ":scope"
+    },
+    "heading2": {
+      "selector": "[data-local-template=\"block-2\"]",
+      "contentSelector": ":scope"
+    },
+    "paragraph": {
+      "selector": "[data-local-template=\"block-3\"]",
+      "contentSelector": ":scope"
+    },
+    "heading3": {
+      "selector": "[data-local-template=\"block-4\"]",
+      "contentSelector": ":scope"
+    },
+    "quote": {
+      "selector": "[data-local-template=\"block-5\"]",
+      "contentSelector": "p"
+    },
+    "heading4": {
+      "selector": "[data-local-template=\"block-6\"]",
+      "contentSelector": ":scope"
+    },
+    "orderedList": {
+      "selector": "[data-local-template=\"block-7\"]",
+      "contentSelector": ":scope"
+    },
+    "listItem": {
+      "selector": "[data-local-template=\"block-7\"] > li:first-child",
+      "contentSelector": "span"
+    },
+    "heading5": {
+      "selector": "[data-local-template=\"block-8\"]",
+      "contentSelector": ":scope"
+    },
+    "unorderedList": {
+      "selector": "[data-local-template=\"block-9\"]",
+      "contentSelector": ":scope"
+    },
+    "heading6": {
+      "selector": "[data-local-template=\"block-10\"]",
+      "contentSelector": ":scope"
+    },
+    "table": {
+      "selector": "[data-local-template=\"block-11\"]",
+      "contentSelector": "table"
+    },
+    "code": {
+      "selector": "[data-local-template=\"block-12\"]",
+      "contentSelector": "code"
+    },
+    "math": {
+      "selector": "[data-local-template=\"block-13\"]",
+      "contentSelector": ":scope"
+    },
+    "image": {
+      "selector": "[data-local-template=\"block-14\"]",
+      "contentSelector": "img"
+    }
+  },
+  "sidebarStates": {
+    "expandedCapture": "packages/theme-chatgpt/capture/neutral-0.9.0/home-english-dark-expanded-full.json",
+    "selectors": [
+      "[data-local-state-node=\"layout\"]",
+      "[data-local-state-node=\"railLayer\"]",
+      "[data-local-state-node=\"rail\"]",
+      "[data-local-state-node=\"sidebarLayer\"]",
+      "[data-local-state-node=\"sidebarContent\"]"
+    ]
+  },
+  "colorStates": {
+    "lightCapture": "packages/theme-chatgpt/capture/neutral-0.9.0/home-english-light-collapsed-full.json"
+  },
+  "actions": [
+    {
+      "selector": "[data-app-shell-main-titlebar] button[aria-label=\"Share\"]",
+      "action": "showControls",
+      "cardinality": 1
+    },
+    {
+      "selector": "button[aria-label=\"Toggle sidebar\"]",
+      "action": "toggleSidebar",
+      "cardinality": 1
+    },
+    {
+      "selector": "button[aria-label=\"New chat\"]",
+      "action": "newConversation",
+      "cardinality": 3
+    }
+  ]
+}

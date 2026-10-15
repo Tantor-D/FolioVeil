@@ -1,0 +1,2924 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "url": "https://chatgpt.com/"
+  },
+  "captureHash": "43a1600aa5468b2dc6e4c20d74f1629bc0db3db7ee78f74157bd143072d70ffd",
+  "status": "downloaded-pending-verification",
+  "offline": false,
+  "slots": {
+    "user": "[data-local-slot=\"user\"]",
+    "assistant": "[data-local-slot=\"assistant\"]"
+  },
+  "styles": [
+    {
+      "index": 0,
+      "sourceHref": null,
+      "file": "assets/sheet-000.css",
+      "hash": "5cbcce612962ccd792c83d0d490c9acdbc758d0ef1739421f1232c1f257147c6",
+      "disabled": false,
+      "media": "",
+      "node": "style"
+    },
+    {
+      "index": 1,
+      "sourceHref": null,
+      "file": "assets/sheet-001.css",
+      "hash": "ad2de7a1f2aa284810dc4769b30bcd203ea3882e5d21bb5cf628b035deb25316",
+      "disabled": false,
+      "media": "",
+      "node": "style"
+    },
+    {
+      "index": 2,
+      "sourceHref": "https://chatgpt.com/cdn/assets/886701.ba0f04c114.css",
+      "file": "assets/sheet-002.css",
+      "hash": "871c4fee27b3619f12e1ff961ac0cfbd727a7d793a661de6e90c3534c0eca71d",
+      "disabled": false,
+      "media": "",
+      "node": "link"
+    },
+    {
+      "index": 3,
+      "sourceHref": null,
+      "file": "assets/sheet-003.css",
+      "hash": "1b9be418e2ede23546435c13bc599110a229a967cb8fbee5c112cea23dc79f38",
+      "disabled": false,
+      "media": "",
+      "node": "style"
+    },
+    {
+      "index": 4,
+      "sourceHref": null,
+      "file": "assets/sheet-004.css",
+      "hash": "ebbabdabf3d2b80aa4665bd5ff83c5db5a88054b80ecc447548d0fb919a2efb3",
+      "disabled": false,
+      "media": "",
+      "node": "style"
+    },
+    {
+      "index": 5,
+      "sourceHref": null,
+      "file": "assets/sheet-005.css",
+      "hash": "9a2806fa7ef5d791f8906177813629196a54f1a4bc53004da45c0351bc68076b",
+      "disabled": false,
+      "media": "",
+      "node": "style"
+    },
+    {
+      "index": 6,
+      "sourceHref": "https://chatgpt.com/cdn/assets/async/939122.9ffdd62fb4.css",
+      "file": "assets/sheet-006.css",
+      "hash": "e9d307d4c725474eae6ba2d0f3cd402301a6561afaff8e365a1297fa06caa44c",
+      "disabled": false,
+      "media": "",
+      "node": "link"
+    },
+    {
+      "index": 7,
+      "sourceHref": "https://chatgpt.com/cdn/assets/async/976600.59a99b4ae9.css",
+      "file": "assets/sheet-007.css",
+      "hash": "50be76f354ef177f8a70ffb0c31e15efbcf1eac76252b37a4f1b51592a25fd78",
+      "disabled": false,
+      "media": "",
+      "node": "link"
+    },
+    {
+      "index": 8,
+      "sourceHref": "https://chatgpt.com/cdn/assets/async/695183.edadf4097a.css",
+      "file": "assets/sheet-008.css",
+      "hash": "3f9a2f9b35546ba6116b13ffb71b049959fd529799b3be5d9bdf0be9710c66d6",
+      "disabled": false,
+      "media": "",
+      "node": "link"
+    },
+    {
+      "index": 9,
+      "sourceHref": "https://chatgpt.com/cdn/assets/async/848296.e2b4f92513.css",
+      "file": "assets/sheet-009.css",
+      "hash": "19601f05ecddc7faf35e1f5304bc5f76191d7061ef6b9915d3a4de3602f04adc",
+      "disabled": false,
+      "media": "",
+      "node": "link"
+    },
+    {
+      "index": 10,
+      "sourceHref": "https://chatgpt.com/cdn/assets/async/631383.ec23679a4f.css",
+      "file": "assets/sheet-010.css",
+      "hash": "a774a0ace9c0c97948ef4c644b0bb3a7b2e9641c77162258b4a9caf1fae9b1d8",
+      "disabled": false,
+      "media": "",
+      "node": "link"
+    },
+    {
+      "index": 11,
+      "sourceHref": "https://chatgpt.com/cdn/assets/async/258588.af6647b173.css",
+      "file": "assets/sheet-011.css",
+      "hash": "4a7ce654e6db0c88b6f6371db25b251d8b4c1415f2ba33a8c2f2fc0c73fe96d2",
+      "disabled": false,
+      "media": "",
+      "node": "link"
+    },
+    {
+      "index": 12,
+      "sourceHref": "https://chatgpt.com/cdn/assets/async/95818.fed56cd892.css",
+      "file": "assets/sheet-012.css",
+      "hash": "65595b2beec474f1040ea086c3f2e75f607ff76f84e5191227d312e545de2f82",
+      "disabled": false,
+      "media": "",
+      "node": "link"
+    },
+    {
+      "index": 13,
+      "sourceHref": "https://chatgpt.com/cdn/assets/async/631391.ad5433ce8b.css",
+      "file": "assets/sheet-013.css",
+      "hash": "4833ba626b6ce36b7778c1ce5283f89d2aaa4ed52e336396dfb722e2d4b4279a",
+      "disabled": false,
+      "media": "",
+      "node": "link"
+    },
+    {
+      "index": 14,
+      "sourceHref": "https://chatgpt.com/cdn/assets/async/691900.534184cdcf.css",
+      "file": "assets/sheet-014.css",
+      "hash": "f5df3e1d5d07cdf59bf99bcba92fd93f3315465e29af177510b8d1d35ec4af01",
+      "disabled": false,
+      "media": "",
+      "node": "link"
+    },
+    {
+      "index": 15,
+      "sourceHref": "https://chatgpt.com/cdn/assets/async/334958.c28a1f0121.css",
+      "file": "assets/sheet-015.css",
+      "hash": "c079c8524280dc2e97bb3cc045b1fde7c5b995a6fc67a3e90737b860771d8777",
+      "disabled": false,
+      "media": "",
+      "node": "link"
+    },
+    {
+      "index": 16,
+      "sourceHref": "https://chatgpt.com/cdn/assets/async/813988.05d57fa378.css",
+      "file": "assets/sheet-016.css",
+      "hash": "7d5f1dd45ee1805eeb736d41a9ecb44f7083062c85a2f0d884d8bdf399f097aa",
+      "disabled": false,
+      "media": "",
+      "node": "link"
+    },
+    {
+      "index": 17,
+      "sourceHref": "https://chatgpt.com/cdn/assets/async/820116.4755d9bf54.css",
+      "file": "assets/sheet-017.css",
+      "hash": "9f1ae80424366becb106a97db5374a066fc7b3b48ea4ddae3717cc603e79b264",
+      "disabled": false,
+      "media": "",
+      "node": "link"
+    },
+    {
+      "index": 18,
+      "sourceHref": "https://chatgpt.com/cdn/assets/async/202535.97b8bc821f.css",
+      "file": "assets/sheet-018.css",
+      "hash": "9bc3e784c618b5b38a5baef7eb5af739e12792837a99a0633d68e63445fa421b",
+      "disabled": false,
+      "media": "",
+      "node": "link"
+    },
+    {
+      "index": 19,
+      "sourceHref": "https://chatgpt.com/cdn/assets/async/366382.09f1c374ff.css",
+      "file": "assets/sheet-019.css",
+      "hash": "b595c28f2b4b548fa20924a6165ea5267c050e1c21ed034b6bea7af996fc92f1",
+      "disabled": false,
+      "media": "",
+      "node": "link"
+    },
+    {
+      "index": 20,
+      "sourceHref": "https://chatgpt.com/cdn/assets/async/407663.7a39e4136e.css",
+      "file": "assets/sheet-020.css",
+      "hash": "b101a7f7b5f79c70ba93ce11987fe8cb48ad7a466577a2cc067ba32678fa7e11",
+      "disabled": false,
+      "media": "",
+      "node": "link"
+    },
+    {
+      "index": 21,
+      "sourceHref": "https://chatgpt.com/cdn/assets/async/866273.b0fbc313c7.css",
+      "file": "assets/sheet-021.css",
+      "hash": "90673ced37bbad2d8f3b430721aec7046182ccd5cf3aa3726be5bbba99ac47e1",
+      "disabled": false,
+      "media": "",
+      "node": "link"
+    },
+    {
+      "index": 22,
+      "sourceHref": "https://chatgpt.com/cdn/assets/async/993262.1173664bc4.css",
+      "file": "assets/sheet-022.css",
+      "hash": "1f3594339c67d12add33888aaa395acc7ffcb0c5e4c01376b312708b1c725a12",
+      "disabled": false,
+      "media": "",
+      "node": "link"
+    },
+    {
+      "index": 23,
+      "sourceHref": "https://chatgpt.com/cdn/assets/async/805731.51e8e72df3.css",
+      "file": "assets/sheet-023.css",
+      "hash": "6113edfb9eb6fbb9a1fed279d273945c94020e3115d9fa833c4c8a4d160948c5",
+      "disabled": false,
+      "media": "",
+      "node": "link"
+    },
+    {
+      "index": 24,
+      "sourceHref": "https://chatgpt.com/cdn/assets/async/644329.ef2648aa7c.css",
+      "file": "assets/sheet-024.css",
+      "hash": "9f3e49bd12f604398e134775894b5d727d7dae0171aaed6b7ad7025274a6a574",
+      "disabled": false,
+      "media": "",
+      "node": "link"
+    },
+    {
+      "index": 25,
+      "sourceHref": "https://chatgpt.com/cdn/assets/async/489892.7192b8cbcf.css",
+      "file": "assets/sheet-025.css",
+      "hash": "0c2219b60ddd80a87c01c182172270508a63f6ee3ccf075c628d356576e1e270",
+      "disabled": false,
+      "media": "",
+      "node": "link"
+    },
+    {
+      "index": 26,
+      "sourceHref": "https://chatgpt.com/cdn/assets/async/449230.ec23679a4f.css",
+      "file": "assets/sheet-026.css",
+      "hash": "a774a0ace9c0c97948ef4c644b0bb3a7b2e9641c77162258b4a9caf1fae9b1d8",
+      "disabled": false,
+      "media": "",
+      "node": "link"
+    },
+    {
+      "index": 27,
+      "sourceHref": "https://chatgpt.com/cdn/assets/async/566787.ec23679a4f.css",
+      "file": "assets/sheet-027.css",
+      "hash": "a774a0ace9c0c97948ef4c644b0bb3a7b2e9641c77162258b4a9caf1fae9b1d8",
+      "disabled": false,
+      "media": "",
+      "node": "link"
+    },
+    {
+      "index": 28,
+      "sourceHref": "https://chatgpt.com/cdn/assets/async/747904.98f3480e34.css",
+      "file": "assets/sheet-028.css",
+      "hash": "5eff0b64bb592a93c10d6186be64f8fe8ea46fc52f86d555d7573efeb0c5cbde",
+      "disabled": false,
+      "media": "",
+      "node": "link"
+    },
+    {
+      "index": 29,
+      "sourceHref": "https://chatgpt.com/cdn/assets/async/352316.13b17f3696.css",
+      "file": "assets/sheet-029.css",
+      "hash": "23e537f13cff1ba44b77944a580d6436da055b28d57c80cf4f99073f18c6735b",
+      "disabled": false,
+      "media": "",
+      "node": "link"
+    },
+    {
+      "index": 30,
+      "sourceHref": "https://chatgpt.com/cdn/assets/async/849407.db5bc5e909.css",
+      "file": "assets/sheet-030.css",
+      "hash": "2ae0fcb7368b1fb9999a58eeae72dd3248c3d867e368fcd3eb3f48165c67a520",
+      "disabled": false,
+      "media": "",
+      "node": "link"
+    }
+  ],
+  "resources": [
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-000.woff2",
+      "file": "assets/6ddf423b4bf7e1ebc6e3bdd3.woff2",
+      "status": "saved",
+      "hash": "d67ef2bcf85571c4b19805372cff8f21c79fcbef1df8ea2cabe86f97a675815c",
+      "bytes": 87432,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-001.woff2",
+      "file": "assets/f28ea8b9af2af24df64b3b66.woff2",
+      "status": "saved",
+      "hash": "038e35aa454e1cc7cb916243018294b8124b4ef264a6d7971ac5fb99f7c0d812",
+      "bytes": 98688,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-002.woff2",
+      "file": "assets/a7f29e45526645cbd887fa44.woff2",
+      "status": "saved",
+      "hash": "eeeaec298e7d0b6915426426d3c1b0930716cf3504e1aa8c0a2fed8e363cbdf5",
+      "bytes": 207168,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-003.woff2",
+      "file": "assets/e117f3fdc8363eb0df5b35b7.woff2",
+      "status": "saved",
+      "hash": "ee710f03293ddde72265975274fbe026ed46ae7edfb91784d15a6f590f9f893b",
+      "bytes": 407616,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-004.woff2",
+      "file": "assets/ddb5003421b88ce6401c490c.woff2",
+      "status": "saved",
+      "hash": "9da4adb5179a32ea59f0415a983b5d25c0daf86dfb9665719662d614d7ced116",
+      "bytes": 14108,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-005.woff2",
+      "file": "assets/aaca14cc88e4e8246f21ec22.woff2",
+      "status": "saved",
+      "hash": "6627c6060b674f9b7204e503822dd29c0f5ce3d4e687b107af5a6ca20bc4071c",
+      "bytes": 8532,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-006.woff2",
+      "file": "assets/8463cf93d40b7b9e9ab474fa.woff2",
+      "status": "saved",
+      "hash": "68d0168fd5a5077bd1f1e134ff1677bf480ccbecc2b66152209dc4ad9f07acee",
+      "bytes": 16144,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-007.woff2",
+      "file": "assets/d10eb66062cfff4d366bf89f.woff2",
+      "status": "saved",
+      "hash": "769d1ec5b9de2cf05ebadfca840fc1553d40ab34acfb04ab0e56fcb493048d60",
+      "bytes": 95936,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-008.woff2",
+      "file": "assets/8793699ec0d8673eda24d1fe.woff2",
+      "status": "saved",
+      "hash": "eab75fc88028a2b689e103ac0a162794119b156ed1325add7d246aecaa4d39a1",
+      "bytes": 86020,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-009.woff2",
+      "file": "assets/4eb9801d498cfd7a4617def3.woff2",
+      "status": "saved",
+      "hash": "f0b32c6ded8872ddbee2a2cfa99d944ab2544bba1ef6cccf6218e15594266868",
+      "bytes": 91908,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-010.woff2",
+      "file": "assets/fe8efd059fdd8343f89f717a.woff2",
+      "status": "saved",
+      "hash": "045d287136de4c5fe1effd4ddb4a843f42b6b00b0203c0c1318c58d1a25bbbef",
+      "bytes": 87108,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-011.woff2",
+      "file": "assets/56b8d4afbb50c0efb218d5b6.woff2",
+      "status": "saved",
+      "hash": "b9e467ff769d1e7cacf60425c65087d390b9a9dbcaf5517083f160e7047edfb3",
+      "bytes": 77620,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-012.woff2",
+      "file": "assets/508df7d265ada393b9b46e02.woff2",
+      "status": "saved",
+      "hash": "b0b7e0e8721a942a7a8a1b28d9a7b83c9a5982981a3242d74e66b7582cbe6f2f",
+      "bytes": 72160,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-013.woff2",
+      "file": "assets/476c6791ff25e30132fe56c0.woff2",
+      "status": "saved",
+      "hash": "e4ab3e46a02f47236c8ddc3e90a864afd1288a02c46861262cc476090b44f339",
+      "bytes": 72892,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-014.woff2",
+      "file": "assets/aef17cf2f19c9ab8ff1101a1.woff2",
+      "status": "saved",
+      "hash": "4afef2a40232e3e96614472f21ed346b113461a2df05349a806926e4b02b4183",
+      "bytes": 77056,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-015.woff2",
+      "file": "assets/2b2e7aae17830458d3dfa07a.woff2",
+      "status": "saved",
+      "hash": "c2f5996f4cb2f0b61dff2965b6d6a24f914b74c58a55964cbc7c2cd91551cc6d",
+      "bytes": 88240,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-016.woff2",
+      "file": "assets/b7a86d9db133884a692ba2c0.woff2",
+      "status": "saved",
+      "hash": "918a083f220eea6dae09a21946a24abcbb3e78550a58d0d10ddf675d364cdcd2",
+      "bytes": 73964,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-017.woff2",
+      "file": "assets/841ef2b8c77d87dc6698c746.woff2",
+      "status": "saved",
+      "hash": "688e538cf05a92f6f9d0e38cdaaab0cd1cd2df5aef9801fe405d525a887550da",
+      "bytes": 76216,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-018.woff2",
+      "file": "assets/f5234c79b38dfd69b3b64869.woff2",
+      "status": "saved",
+      "hash": "56dc9741599f3b615acf49af9492c4c7186712a32b6d7486162814e339d5402c",
+      "bytes": 72808,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-019.woff2",
+      "file": "assets/e56e0c80a8f7fe68ab2996b3.woff2",
+      "status": "saved",
+      "hash": "62966d2380594d36b1a8fa35c6d0fdb354a9c1ca6ccb89f977cb52825e0efd1b",
+      "bytes": 71588,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-020.woff2",
+      "file": "assets/d29fa5c6242000022d207ead.woff2",
+      "status": "saved",
+      "hash": "153eb60483eca9b55b10f0a9381f7396242885e806628b25eea8f9fda70da848",
+      "bytes": 68036,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-021.woff2",
+      "file": "assets/9b1a4e63083477b1db1cbff6.woff2",
+      "status": "saved",
+      "hash": "3e784c322d0aa0a2518c5e608dcf716a425d3104e732675a62114fce4f87c46e",
+      "bytes": 67332,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-022.woff2",
+      "file": "assets/0cc2a32de9c8eae11e7e764c.woff2",
+      "status": "saved",
+      "hash": "687d8a7924dff1ea13e34abb7310dccaf185c79f9b672a38752932b50d123ab6",
+      "bytes": 76280,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-023.woff2",
+      "file": "assets/acf1cb808b328d52259ab519.woff2",
+      "status": "saved",
+      "hash": "b87e680ef616799aa2163682baedd927fe448e47cf48b26d938a8147019ec22e",
+      "bytes": 78760,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-024.woff2",
+      "file": "assets/72afaec1cee732dc8c518e3f.woff2",
+      "status": "saved",
+      "hash": "ef46e8c7fbdfdf15fbc562c941ca68d85ee5fb8f3086da3b3f34c27526785007",
+      "bytes": 73396,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-025.woff2",
+      "file": "assets/562d390ec0701b0ac5ba02ba.woff2",
+      "status": "saved",
+      "hash": "f2cce95eb512303c3ead2ca3e39b9bd198580703b630796f00cdb0c62c28e770",
+      "bytes": 64244,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-026.woff2",
+      "file": "assets/bb9c8674f590fdbfd289194e.woff2",
+      "status": "saved",
+      "hash": "db3318afb1d506c13ab7a38635df383344336a3f2dd7db8e90f1bae6f9067fc7",
+      "bytes": 48052,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-027.woff2",
+      "file": "assets/f31a6bc541ea6bcb722ec0e2.woff2",
+      "status": "saved",
+      "hash": "c770dfca740ba4881b0e6213b0f8820b065bfede35ab1f663b0dde050cf0b7f0",
+      "bytes": 66552,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-028.woff2",
+      "file": "assets/faa6fc1574479c7a9526a9ac.woff2",
+      "status": "saved",
+      "hash": "8877a20f96dbf1aafff7cce7fcfc43542db3fe120c66dd07f496ae0cdc3bad92",
+      "bytes": 63956,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-029.woff2",
+      "file": "assets/c7983854497d710ed7adfb45.woff2",
+      "status": "saved",
+      "hash": "6b55d7fde39b5f88053119481215e830093dcf320b3d0b2f86bd5cccf5878da7",
+      "bytes": 78532,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-030.woff2",
+      "file": "assets/ded62049bf747585e72a0c82.woff2",
+      "status": "saved",
+      "hash": "b711d1b631459635ce213925d7e7baa3796e9036d2e4d143711eb60aeca477e8",
+      "bytes": 103580,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-031.woff2",
+      "file": "assets/2997c0426efbfbd399229a91.woff2",
+      "status": "saved",
+      "hash": "6f6fb8ad1142da7025f4cf50810b60d809c96e66d3f9a3c1aa9373cb2ed39dfe",
+      "bytes": 91440,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-032.woff2",
+      "file": "assets/93d316c3b48c276845b41b76.woff2",
+      "status": "saved",
+      "hash": "5b504a28ca0774f722831af1c19364de070852c685dab9c935b6a39b9f512fb8",
+      "bytes": 82776,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-033.woff2",
+      "file": "assets/d8ba3dc262cd874157dca202.woff2",
+      "status": "saved",
+      "hash": "362f13cc8bcdf98d9245427cf066954fc6a82adc1a63155ad231a693dbe070f0",
+      "bytes": 71752,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-034.woff2",
+      "file": "assets/88150e4aa9174a6b193f352e.woff2",
+      "status": "saved",
+      "hash": "c4c87e13a08b4033ed6476035cc88fccf63a898b5e5276fb074862cdbe3510e1",
+      "bytes": 75396,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-035.woff2",
+      "file": "assets/cdf807d4b1e66b93e9c1366f.woff2",
+      "status": "saved",
+      "hash": "dc901d7a229bfeee7b4bd3eecbd0e494993733728dcbdbe33bbe1d82d27c0128",
+      "bytes": 69896,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-036.woff2",
+      "file": "assets/3d0ba5073d3097636501c99f.woff2",
+      "status": "saved",
+      "hash": "ac22bc11b3af3c55a37783c905a40622ee6494262397640b83b67efced04024f",
+      "bytes": 62472,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-037.woff2",
+      "file": "assets/6834ce26ede1c97df10f65a2.woff2",
+      "status": "saved",
+      "hash": "5322661ae936c489f0fb7bbccc8898f966d1e6e0f15c1c9de072e84c485f7fb7",
+      "bytes": 76020,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-038.woff2",
+      "file": "assets/e7b0f41b87e8e3d452589c96.woff2",
+      "status": "saved",
+      "hash": "e633b8e0d7680a2de52b1dfd7054037fcd819779030224f03a2aa32fbe947b0b",
+      "bytes": 63088,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-039.woff2",
+      "file": "assets/3855d7ccbf46bbebee166353.woff2",
+      "status": "saved",
+      "hash": "1a3c317decd446535f89211a82f7d2bf57e96ee5bc5b4295fad527a18ff852e9",
+      "bytes": 73500,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-040.woff2",
+      "file": "assets/595e04c0bd06ac2f6b8b16f0.woff2",
+      "status": "saved",
+      "hash": "26032e7ffc542e2a9b9270ce0df1419339213315c7381b045706d073430815da",
+      "bytes": 70240,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-041.woff2",
+      "file": "assets/5023d3be2b4d46fa84cfb23c.woff2",
+      "status": "saved",
+      "hash": "d3533c980febeab627e3872e85a566eae7b255dc539a83ee74f6f0a656f6a6ec",
+      "bytes": 75948,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-042.woff2",
+      "file": "assets/077e5ebefad7d089ac9a9fb6.woff2",
+      "status": "saved",
+      "hash": "5abc52a85afef8ae073e0d74ed797f34c9a8aa715077c42545173482715d9b8d",
+      "bytes": 78252,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-043.woff2",
+      "file": "assets/5924f70faae807d5d27dad01.woff2",
+      "status": "saved",
+      "hash": "b2e1111af819baebc0f70d1d1b4e79fe9866797a2de8a0f7b5f838172702957d",
+      "bytes": 82480,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-044.woff2",
+      "file": "assets/ac45dfd54f58ed65d9e85466.woff2",
+      "status": "saved",
+      "hash": "9fa3ed5757b03790f623de316039da624b721a9a89d74547a6d39a13ef273d6c",
+      "bytes": 67492,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-045.woff2",
+      "file": "assets/7d68d82e2136a74e5f0a123b.woff2",
+      "status": "saved",
+      "hash": "584db7fd356be339665cef5491b49c767bbeac9b9a74e3b49bd88ae9689c8969",
+      "bytes": 57792,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-046.woff2",
+      "file": "assets/2e2fa209ea2f2d21bed9c62c.woff2",
+      "status": "saved",
+      "hash": "54cbbc6976307d2caae5550ff3c91de5a3e90f7a9079a2da927a98f93226888e",
+      "bytes": 63740,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-047.woff2",
+      "file": "assets/7eed33aa8c4665dc9c833d65.woff2",
+      "status": "saved",
+      "hash": "5e3f72da03fee4c363f34df09404787385b847f7369ea549429130044928b6e9",
+      "bytes": 83992,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-048.woff2",
+      "file": "assets/4ea91d44a84ad671eeeca312.woff2",
+      "status": "saved",
+      "hash": "f495a9da49054923d4661298cc4113e0edf32233c1bd6a19e5714b7b923f5836",
+      "bytes": 69500,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-049.woff2",
+      "file": "assets/f95b4fd66de6a3ed46adc7c5.woff2",
+      "status": "saved",
+      "hash": "0489e6325e3c62ff5f5d2a12acd91ce4fc892fa6c084370b316c2503bb73d19d",
+      "bytes": 55316,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-050.woff2",
+      "file": "assets/112784e40a869a3bd8472f1a.woff2",
+      "status": "saved",
+      "hash": "3f7e66762242e69b0806c4c208a142a020779a8f7b4689cc9469a43d384fdcf6",
+      "bytes": 61140,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-051.woff2",
+      "file": "assets/5589bef2ef86babc1fecef9d.woff2",
+      "status": "saved",
+      "hash": "8eacda7a7c8bb6b65032f03d568b61484a4623abb1810c2bc4ab97d9bb3d4e0c",
+      "bytes": 75768,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-052.woff2",
+      "file": "assets/2d773f3e65c4783e6c336559.woff2",
+      "status": "saved",
+      "hash": "3c0330ef0ab71a33c0d45d0b4db6708826786381e6d66b27450eefbb7c45050d",
+      "bytes": 75232,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-053.woff2",
+      "file": "assets/24e59d5ebf5215cca02c5ff0.woff2",
+      "status": "saved",
+      "hash": "a57d4da27df2b219ec08522a933ae10c05b27617543d444f93d127bf894b9fa7",
+      "bytes": 56364,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-054.woff2",
+      "file": "assets/80cafa30bf5eeafd848e8ebe.woff2",
+      "status": "saved",
+      "hash": "308129dc1b8400748fc613026f0c0c98f205c82f4d3b21ecf0a0feec10c26908",
+      "bytes": 81092,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-055.woff2",
+      "file": "assets/b23a60cdc1750a55ca4932f3.woff2",
+      "status": "saved",
+      "hash": "af29df523dc6593305443311bcfa55e5eb07c44392a4d18f9c29ce15db9a2a77",
+      "bytes": 57008,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-056.woff2",
+      "file": "assets/e66fc9f93fabe651ef698981.woff2",
+      "status": "saved",
+      "hash": "eb970981478e1aa4113ed5dfa9037be8b0ae8839b0ff73bf8c4a466a802d9329",
+      "bytes": 67040,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-057.woff2",
+      "file": "assets/7538b2f28e24699ee4fe6d77.woff2",
+      "status": "saved",
+      "hash": "eaf44e84ac12a51ec3862fc7cd271340bef9e06467b4c715e112bb61ae7e18cb",
+      "bytes": 67040,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-058.woff2",
+      "file": "assets/92bc8c429c3a845b45cf8013.woff2",
+      "status": "saved",
+      "hash": "c96e509a0d9d95a4a970851904e3241be2e6def26a491ba1035b43358568d12a",
+      "bytes": 55192,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-059.woff2",
+      "file": "assets/f441cfe3912897f4e3239fdf.woff2",
+      "status": "saved",
+      "hash": "b615dcc1c6e3d92dae19fed7dd2f18c9b86928a099fbdda769509c33608ae17a",
+      "bytes": 78748,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-060.woff2",
+      "file": "assets/31481be23c5c6b9968fb3897.woff2",
+      "status": "saved",
+      "hash": "bbcfab955aaffa06f20caca290e1ff0259dd5fdb18266e1e1f319c4e6498c0d8",
+      "bytes": 63708,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-061.woff2",
+      "file": "assets/63ae51d5d87e068edc842e1b.woff2",
+      "status": "saved",
+      "hash": "c97f99e290ff4e90cf428ec13e2e38c6f930a304b6649937390a077af2e428b7",
+      "bytes": 69464,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-062.woff2",
+      "file": "assets/a6b938215b3a51106bc5506e.woff2",
+      "status": "saved",
+      "hash": "7c81c4bb6a931bf3d00472340b59aa39e394f424d0651edc91a315294705a6de",
+      "bytes": 53604,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-063.woff2",
+      "file": "assets/4301b192acaeba9aa44591ad.woff2",
+      "status": "saved",
+      "hash": "784423c3db3517c4d312b8aebb28b8c4bcacb9c83d28386cec4cb9a56eb067fe",
+      "bytes": 72992,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-064.woff2",
+      "file": "assets/1d396d3c34490726bd8e546b.woff2",
+      "status": "saved",
+      "hash": "5893df79c93f63a1d1ddb70b625e8a72716b6502b2a0fdc6a40e8bbcdb6fb004",
+      "bytes": 60428,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-065.woff2",
+      "file": "assets/d7685839b34f281fc6108f45.woff2",
+      "status": "saved",
+      "hash": "f322ddc2cb351c384c1960ba1924d03cf45022e7cf3056e499f64c5bed660480",
+      "bytes": 45104,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-066.woff2",
+      "file": "assets/70bf656ff06a263aef5c032e.woff2",
+      "status": "saved",
+      "hash": "590534eb6242bb90e48e7eb40280d326a557fcc6d67f912d4bb2c30f1053f2a1",
+      "bytes": 65988,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-067.woff2",
+      "file": "assets/97f18c55f9c4b7dbbe5dfe30.woff2",
+      "status": "saved",
+      "hash": "2f87df2f5e7db83be2f3a2f43f9a785506089afce304ee1c586d239264c99ebf",
+      "bytes": 63392,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-068.woff2",
+      "file": "assets/205a51129ac2c0e8b0372014.woff2",
+      "status": "saved",
+      "hash": "9dbfab49e95c56a0edfb7e2c101d82f6914600c17bc82f09bbe9f5b1454b3857",
+      "bytes": 63976,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-069.woff2",
+      "file": "assets/a8ece022d2b647b944483ce0.woff2",
+      "status": "saved",
+      "hash": "7cf239b539158ad2c241f35fc0880c9bf190210dab7e7a22a491d8b7096e4492",
+      "bytes": 45332,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-070.woff2",
+      "file": "assets/a3d9b039ce213ed4ec6572d9.woff2",
+      "status": "saved",
+      "hash": "e2ccacfc198335dc35fff585f22d660770a592f3025ad061e27ddd297e7d5047",
+      "bytes": 31752,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-071.woff2",
+      "file": "assets/de0db2f2271a3072fb23c03a.woff2",
+      "status": "saved",
+      "hash": "0ca9a2907ea4febbba8cc5a013611d891c75dc6a21c7791cf658d08d87458538",
+      "bytes": 24852,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-072.woff2",
+      "file": "assets/fc4ae6d54b98e2bf8432ec19.woff2",
+      "status": "saved",
+      "hash": "4c2b6f3335d935baf6d3e07345358982d403ee75184f79546faaba7376cc6f25",
+      "bytes": 1076,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-073.woff2",
+      "file": "assets/c2c436f13d6951e6434dbfa2.woff2",
+      "status": "saved",
+      "hash": "f31c486695f81b6759a8af5f3ff09b1e7dcc31fe9a824d11465a99433d3a55f1",
+      "bytes": 2712,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-074.woff2",
+      "file": "assets/58acd2588e1557dc4c20a49f.woff2",
+      "status": "saved",
+      "hash": "a347eeba2fc16d4cc9900f18bb4c9e445ffa0c5fc4727dc47f1f1d2f5f9c7939",
+      "bytes": 11676,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-075.woff2",
+      "file": "assets/9940f2049680f46db4552bc2.woff2",
+      "status": "saved",
+      "hash": "e18a89e67797ce72316a5462643b0e6478f5bc1fd2cd8c92dc80327fe6c3f2ba",
+      "bytes": 5768,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-076.woff2",
+      "file": "assets/fcd0aeece251a0e1a98330d2.woff2",
+      "status": "saved",
+      "hash": "9f4f1834b67d6d506fdf83c897fd42dff56da675386657d8b40fdbddffc7c706",
+      "bytes": 1396,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-077.woff2",
+      "file": "assets/40c3f23ab1e8a16b8bab0aa5.woff2",
+      "status": "saved",
+      "hash": "60a2b21e1d22c899d4cd3ad171f0fefbb359f92118f21e7fb5301e8a35907bcb",
+      "bytes": 1228,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-078.woff2",
+      "file": "assets/42685e2be6e94d2d496e845d.woff2",
+      "status": "saved",
+      "hash": "cb6641ba43df4b5324158ae84563d0d77035e40c8ab57eb157fda37ce6da9470",
+      "bytes": 4188,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-079.woff2",
+      "file": "assets/ed86941a911dfd6428f75e6b.woff2",
+      "status": "saved",
+      "hash": "20e6ab41fe23ead1e0cbe73c5e6fede09299e680d5d74342de73a7b9741e97ae",
+      "bytes": 85872,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-080.woff2",
+      "file": "assets/a478d189f5f46d01b79f67ee.woff2",
+      "status": "saved",
+      "hash": "1d98ff6aa51801db53ffa1c9f6ac6803d7c8d9e9a427714e974ed0be06f1d529",
+      "bytes": 71464,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-081.woff2",
+      "file": "assets/84a8105bcdda410bbe4bb207.woff2",
+      "status": "saved",
+      "hash": "f97441714d96617400b095de14bf26ef0a5a993d19c1f47d55658e5ac75d929b",
+      "bytes": 76088,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-082.woff2",
+      "file": "assets/3b7cb2d400e7a1ec0b0f9856.woff2",
+      "status": "saved",
+      "hash": "f795db4dfff944a70dd997582140fdb4377843897e4a5427e2b17ccf9fe0d6c7",
+      "bytes": 77520,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-083.woff2",
+      "file": "assets/6b66bdd431dc52dcf577c006.woff2",
+      "status": "saved",
+      "hash": "322b547fcb92fce23dc24bd66061aadaad8a674b22dc6101e2a9387a6fc519b3",
+      "bytes": 68064,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-084.woff2",
+      "file": "assets/4d194be7e5cebd3e50999558.woff2",
+      "status": "saved",
+      "hash": "cbee253d64a593c2caa7cacdc42425a20baf021ebd108e70ca805b542fb327ec",
+      "bytes": 65736,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-085.woff2",
+      "file": "assets/27df55239fbbb989b44f5d25.woff2",
+      "status": "saved",
+      "hash": "515790dec08e1d5073381197381d15a34fd912595272f2f228d90e38a254ac65",
+      "bytes": 56196,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-086.woff2",
+      "file": "assets/ca25e1846c28db29f683ec1e.woff2",
+      "status": "saved",
+      "hash": "bc7c60fddc78c190f13cc0b9532cfcd86584bae5edeb902bfca68079af585c5e",
+      "bytes": 57660,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-087.woff2",
+      "file": "assets/ff4a5f3ba724857488bc4f7c.woff2",
+      "status": "saved",
+      "hash": "827b41114369b60b75a8e60bf7a41d642c179775e715f4aea59871c5de3f9980",
+      "bytes": 45160,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-088.woff2",
+      "file": "assets/d92916c51997e14e54152f6b.woff2",
+      "status": "saved",
+      "hash": "d07fcc88f2d60e19c51f5511a96f5c4e3f3132497681f3b29f459c3df34cfa12",
+      "bytes": 36704,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-089.woff2",
+      "file": "assets/6e496f8fd1afe48f2a625093.woff2",
+      "status": "saved",
+      "hash": "f8afcc929218f43339a65b6311bc6c94ae01b85cb249fbc9f95496e8a9b26f18",
+      "bytes": 31944,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-090.woff2",
+      "file": "assets/ea8f23a75681a1134254166b.woff2",
+      "status": "saved",
+      "hash": "314d745937ed856e5a6caf7b1e0126db701683daae27c633152bef25b3330ccd",
+      "bytes": 25224,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-091.woff2",
+      "file": "assets/a1f97dea48632f0b152285c9.woff2",
+      "status": "saved",
+      "hash": "6c1f834f45e6aad79295e61cf8f90f6ea4aef9e9c9c25e10018fd24e2ea07878",
+      "bytes": 17920,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-092.woff2",
+      "file": "assets/85f47839cce511a0301c942f.woff2",
+      "status": "saved",
+      "hash": "6d8a3b136fbfd44a69ae81e796e6f4eaea5d0f6042c9cdcd03c6636441ef764a",
+      "bytes": 9652,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-093.woff2",
+      "file": "assets/602771be950681d3a52021b2.woff2",
+      "status": "saved",
+      "hash": "edb61c07fde99722a0b1a0f6d6ce1b1e54884bf6a7e57a1c77a1336fa684a796",
+      "bytes": 2992,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-094.woff2",
+      "file": "assets/a6b9ac7cc6b0be103cbac762.woff2",
+      "status": "saved",
+      "hash": "98cf7858f2595bcf62af0d34bc641c8fcf9a69a8af0af04d511e8fb9717422dd",
+      "bytes": 1980,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-095.woff2",
+      "file": "assets/c1762c34372e75d8ee3dc5c6.woff2",
+      "status": "saved",
+      "hash": "7b31568030edc4c461d531e82ba13e20b52878dfb688a7ed4ed6b94122673530",
+      "bytes": 2148,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-096.woff2",
+      "file": "assets/12b8e299630ecb6b6aeacc30.woff2",
+      "status": "saved",
+      "hash": "0ea7fcece746e563e1715a4a8cef873f82d3f467a198898d9604f6b2d4183517",
+      "bytes": 1480,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-097.woff2",
+      "file": "assets/9497a571a609695393378ed7.woff2",
+      "status": "saved",
+      "hash": "aadba45ffebdbee3b5bf3fdafabb01474e240d4b50e8057061eee506ee839187",
+      "bytes": 23884,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-098.woff2",
+      "file": "assets/0b16df710b73d5eb601c167c.woff2",
+      "status": "saved",
+      "hash": "dee1c1f3218624b2adac6eec451e11be34b10bdac2baf9c9201b9d910d6266b3",
+      "bytes": 1300,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-099.woff2",
+      "file": "assets/f61891d67e0ede2abc283bc3.woff2",
+      "status": "saved",
+      "hash": "f99d7748082b1504fb78a6034dc5985a1882cc88d434a399ebb62a7b137ecd2b",
+      "bytes": 1004,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-100.woff2",
+      "file": "assets/64164507a455741c3027332d.woff2",
+      "status": "saved",
+      "hash": "888ffd157c3a70f2fcea3434325c0b44ac74085fcd327b8bba3dfb2c9a5472dc",
+      "bytes": 191172,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-101.woff2",
+      "file": "assets/05970d5e71b3d54cc46510c9.woff2",
+      "status": "saved",
+      "hash": "3f3bb26078adebf2ba690ef311ea8a0ce14a8105d00e26e5a4837e406525ab12",
+      "bytes": 234960,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-102.woff2",
+      "file": "assets/bfa024d4123cafe560637013.woff2",
+      "status": "saved",
+      "hash": "e239c890fc7551935c89583900bb95398f17a7013b4b2827ba53d54638a5e464",
+      "bytes": 231484,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-103.woff2",
+      "file": "assets/1135449cc85f59b00fcdbdd2.woff2",
+      "status": "saved",
+      "hash": "af701003fac5308b865fcafff53addda6c77900fccb7c2c23b300043e143f350",
+      "bytes": 241368,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-104.woff2",
+      "file": "assets/64fd5865dec8a8b465437377.woff2",
+      "status": "saved",
+      "hash": "d17f915bae820174226422bc41ef3eece4a666ad29540a8b8d601f4a02df7cf0",
+      "bytes": 274140,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-105.woff2",
+      "file": "assets/3703167aa17730c6dc6c2400.woff2",
+      "status": "saved",
+      "hash": "a0834d3703f0cd26b9f6276133bbe92a500441f7898f879bb753273bacfea435",
+      "bytes": 251560,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-106.woff2",
+      "file": "assets/9ca29a22330b16d3e449713f.woff2",
+      "status": "saved",
+      "hash": "9d706368eef254e9bfac00d7156dc38fb96fcf241ae937d716e319d2a7ece8bb",
+      "bytes": 254912,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-107.woff2",
+      "file": "assets/2f9bf60cfc237fbc01c4a701.woff2",
+      "status": "saved",
+      "hash": "a7b1017196cf9ada0ea873970fe875d0fd91b52d9c471694aafd843243c94306",
+      "bytes": 299692,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-108.woff2",
+      "file": "assets/541e1264dc7f7b8832343d36.woff2",
+      "status": "saved",
+      "hash": "93ac5a2636e109ae5c9379ed08dfb98e0fc51a120a9e7c2614f4ac444bf10813",
+      "bytes": 251484,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-109.woff2",
+      "file": "assets/82cbe7b2711b01fcd0d8eaf1.woff2",
+      "status": "saved",
+      "hash": "bdff359cea9d579ec3786f36e60f364d18209f1b1e85d3e445390af7cd24893b",
+      "bytes": 284040,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-110.woff2",
+      "file": "assets/fc668facf446b6276e99dabc.woff2",
+      "status": "saved",
+      "hash": "caeca696d89408dd48deaa502fa6a607b96e013e0ebe1a524bbde99ddb7ce8a2",
+      "bytes": 273084,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-111.woff2",
+      "file": "assets/148cefd20ca69e6cbee4837e.woff2",
+      "status": "saved",
+      "hash": "5fbdfac27f5e47c0f1cba0acf746684e92e5b772af63694a55e867850257a33d",
+      "bytes": 300852,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-112.woff2",
+      "file": "assets/cbd1ea973f6bbb64145cb342.woff2",
+      "status": "saved",
+      "hash": "e66d22f51b034b69de99a4f1b0767bf1ab735b2663d5157d1d6ee7ab67afecf7",
+      "bytes": 338140,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-113.woff2",
+      "file": "assets/793a13f9d47a9609a9275ec8.woff2",
+      "status": "saved",
+      "hash": "2499468a97ccadce0b79af9332e1298e879b7598b147c7af86763542c0ebcc38",
+      "bytes": 218520,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-114.woff2",
+      "file": "assets/bcb43aca0cd66311c0496bfe.woff2",
+      "status": "saved",
+      "hash": "add1a0c89d429f68cf0f3f79f8f6cbd2fcab806e7d7cd86b0c7420f37ab04d02",
+      "bytes": 245984,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-115.woff2",
+      "file": "assets/5bdb954827a8d4e0436605f5.woff2",
+      "status": "saved",
+      "hash": "668ea6977cf76a075a82c7f63fdc7b7b0a9c5a18f9503f98c79f8605cee315d1",
+      "bytes": 231012,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-116.woff2",
+      "file": "assets/9a6345e4e2fa5b1567fca995.woff2",
+      "status": "saved",
+      "hash": "69aae8ed6b8c6f912772c45cf12640b1c2e98ef1a1e608e2dfc1e3c085ee6a31",
+      "bytes": 253240,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-117.woff2",
+      "file": "assets/92fe8b3ea24e0678a83434f2.woff2",
+      "status": "saved",
+      "hash": "c3f971276bd16f3c040709fde9a279391c49434ed065186f4719f031d5829486",
+      "bytes": 250644,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-118.woff2",
+      "file": "assets/6e774aada402ae568967cb99.woff2",
+      "status": "saved",
+      "hash": "f513bd11af69b13ac316e7ba6d0fd6ecc66c5c5003b4768793ed42391734d2c7",
+      "bytes": 265420,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-119.woff2",
+      "file": "assets/584f619d4ac9b26014b4c6cb.woff2",
+      "status": "saved",
+      "hash": "e8e886dcc74f136c712b176fa0b6aa975737ce45616c4f9ba95c7062cb1719ed",
+      "bytes": 263364,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-120.woff2",
+      "file": "assets/b7e214f27a508ea4a8bc0a38.woff2",
+      "status": "saved",
+      "hash": "7f589940251f2674e10488844cf39460bf48455f32a49bb4b875ff3579ea442f",
+      "bytes": 254944,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-121.woff2",
+      "file": "assets/d7074cc163f6daa6f3a08c41.woff2",
+      "status": "saved",
+      "hash": "a95fad2cdf3d54e7cfb4f6a9f47ef6311c950e4c55ddbd13cba85e0496199ae7",
+      "bytes": 309492,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-122.woff2",
+      "file": "assets/79794481a1d717177cbb7ecb.woff2",
+      "status": "saved",
+      "hash": "0ab1ba39e5e21fbc431f93ee0e1ad19296c4aea35009686cbcb702366b7ceed8",
+      "bytes": 231028,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-123.woff2",
+      "file": "assets/f044fcd9a5aa3ac0df9406f5.woff2",
+      "status": "saved",
+      "hash": "b990396c0846c05ba39826458092d7c16ef8be44026d03b78be350760aeaa87f",
+      "bytes": 279956,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-124.woff2",
+      "file": "assets/efb58eadffb0099b123af442.woff2",
+      "status": "saved",
+      "hash": "1beb42153a1511f96ff36d96c77c927a950839fdc4173d48d38d034c5b1da9fc",
+      "bytes": 282076,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-125.woff2",
+      "file": "assets/2b5e27ade1ba54e99144951d.woff2",
+      "status": "saved",
+      "hash": "19ee1b005968ab9500c10a0c1089b973a4a3c68172f4b51b4dd4c213e6768489",
+      "bytes": 259336,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-126.woff2",
+      "file": "assets/40891a73f351e55ddffed587.woff2",
+      "status": "saved",
+      "hash": "67532bc193a1abaa73184531dfb4d4a098b7823cc62be12a07b94ba3d3ba037d",
+      "bytes": 293332,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-127.woff2",
+      "file": "assets/814ef92eafab0d6a279eba6a.woff2",
+      "status": "saved",
+      "hash": "06ccbd21af7c1c11b7936e6386c153bd8f803493aa6ee0ed598f768c19a10112",
+      "bytes": 277224,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-128.woff2",
+      "file": "assets/01d5bcda7c92178112b80994.woff2",
+      "status": "saved",
+      "hash": "dcaff89935896b3c61b28fada49ad6551e8d601c50c2459906318e1282f0bc75",
+      "bytes": 320180,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-129.woff2",
+      "file": "assets/0d30908a5f5ae8296015cd27.woff2",
+      "status": "saved",
+      "hash": "d341269dcabddca840d8bf6eb52aa34dd339e26e2c43cf94df010e4e95d02efc",
+      "bytes": 331052,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hans-v2/OpenAISansSC-Variable-130.woff2",
+      "file": "assets/e8eb46cd439e71a21b6a541e.woff2",
+      "status": "saved",
+      "hash": "a42377fdd2d6fa696be49e59c3cc4670780c1d7b58458c55089f1a6fc8dbba90",
+      "bytes": 126232,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "data:font/woff2;base64,d09GMk9UVE8AAAM0AAkAAAAABcgAAALuAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADYJIBmAAfgE2AiQDDAQGBYRyByAbIwVRlKvJFsDPBJtObcFDgzooFmKOOuZpZMG4Jg7aB8Nn8fzDvXrufz9r8tgCAU4XFVvjosSo0yqWv9Z+b8++or6Y3y3ikk0laqIkfBkSQzINien2vweAH79N8JdohCbbWndr/HZ5v86kXxrEqV+cqnlKNBcLjY0Bj8Ka512LSgsolgt1Wa1Wr27atM/jBW21RrW55g21jw81IoJNHn2c/z24BlCQTVVvW09zVvtAY1dzeOZwYxugoDCNO2g8kMZDDRpPRuPFajC3qWY31RzV9+loj/h/e6ud/0/bfxcbEILkKpVrQNhwTzuJycoVI0S9RjZZES7WjkQvApCsAhsUn3SuWdP3UZ0zRZT+X1OW1h0OGr9NflM3xRvmiClHqQORzvz/tQbQb7L8b7XUFdZrb+h13MhqctFw/8PP+snI1CnebrExOvET/Fh/hn+knPwQZw89wnNvi+62ERUZoHLr9BC1nCwROqghul1go6hTCVTs54ZppNw6x+jkYtzYdoEMTuGT8KCP/A/hDIeWUloqM4VXWm2g5T0CrvPF5g3kAs04zXJGkI7P96za7LmtKwgBAmhGzB07gBpPeEUAKyzEwwWJxIBzFaQeHZwg6BYQxo6W2Qwz739fUTpv+v/c+Xy3Sv6VF/uN3w8uFpdbNkDuXnWVGkBhvGn75R1LYEgq295Z+QHimbpBIbxAAQtPAhA2QAAaMjYQQHHzONnK8R1EFN9lrZmfUxvmFzjzl5dsLLNQqwDEx+49z7B0yrNi3SQ58LwmAy/AqeOtOWduzoY8+2s/wMFgbxAWiEesMNZAalIE2r8JllitrXeokZEbwVJpR0hSXFLwa+wftjSPNWMSERMRGxMrEi0DVYcfdnhxQ66Eqt62nmYsq32gsaspM4cb2ypPtQ531Q+IIoj9J0lKy0pzkjTFKxoOtd8ODLb39mD0t/UONT71Ry6QDBlaIonr767vbJaUtzSPNQOBmOXFihFLROyYXvXnrUOTszoAAA==",
+      "file": "assets/e2be92caf37f0ee4b3ff2da1.woff2",
+      "status": "saved",
+      "hash": "22969e3c536b4889cbc04b94a87b514ec1d447aadc109d537ea88ad87682691f",
+      "bytes": 820,
+      "contentType": "font/woff2",
+      "reused": true
+    },
+    {
+      "url": "data:font/woff2;base64,d09GMk9UVE8AAANIAAkAAAAABkwAAAMCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADYJQBmAAfgE2AiQDDAQGBYVwByAbqQVRlMVNBfiRkLl5oxlVNKr4xQKiOJqYMp0zZd4iyiabvWs/aWpaEhyiBiMQGoNCIoys0xiDZnJteLRGXET3IpoQq697VFOmBlImcVhpy3pWuy6ZGDJnDoFpIwM96olCINQDUebsKzfc8cml+mMBP82Lfx5kKvx3Td2DFtCONwWq1Ru/VIs7/gTVpl7hgkiHscva/P1RKvnkOj2uDshaX5Id6vvRLs7Q7ZY7RUIphhAYQskQ6gJDmGIIZ4YIVbgw4aJK86iJ8ai2EeK+a2PFayPSEw4h7uwclpQxdejLyi11M9Iy2h0j4eJMBI28mehJINkCFioovm/Yah6VpgBJUm48kUyWnPA1xAhNmKY1S5qwFaT01WKAtvHEg6QZc9todjOVtRlP+hmjzDDS5vtMPD748Cgn0q2zV69y9Mytow/50QcHH4tnHBQWHuslA/3B8O2e6uPdV9vO1B/lSKo5WCl4o2ahQUcDvW2kuxvh3SOtegPX6+drRCVHhYM1R9HgaP3ZtqvIQwHcGn6o8wf644VngrsJ4QBWcbQHGrW2K7XgmT5uPpAHTOivlgPGIeL+mbnYY7xhj5AEAtSqfMIBaNDgjWfcMFRmHIrAIqAO7J4cqgRylIjSHx27HeBe+8o/qp1Xbb/IqsC9ZI03+w/fbWoexLpPI+sf04PMBbjGKDw6XInbdQiytiHo/3RWkeUd9IkyXjTYfUMA4QsCKCpfBGjhAhFgEqQAAWZZygUw+FhGgI2LIwiw404iwEWQixiaHEGSvMqDgqv5QpHqDyV0WChLs4GKVj5Q18zvoKFe1Xk/BxaI0I2NKfxfK8J/W710UVzebArQ6NFEpCWN1fGWFBQegKAjSBCctI7wij+coRcCJGQgy7A42Q3Te14v7+6FuamjlQMEsKxdJHYlel9kJ5adv7kxHe2kcBAeviIZGBpwSO2aZ7b9TXUzD/i7C8jF1drRAeiL2ZWjm6Rq8sFp4jKIQOBI9iJbyNGt7alX974oJIgBsRgsHDkMjr/FbPeiAAAA",
+      "file": "assets/f95a17aca146ad440ed70501.woff2",
+      "status": "saved",
+      "hash": "5f370ae83c0e4012699b22c8282357fde74848736cdb7b98e6d3d2d19f70b33f",
+      "bytes": 840,
+      "contentType": "font/woff2",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/OpenAISans-Light.woff2",
+      "file": "assets/bd7d5c5d24775f1952c9e5a9.woff2",
+      "status": "saved",
+      "hash": "c2c26cdd6435939de20a7bd90466e1435d3fd7141934ba9942f31a18280224bf",
+      "bytes": 53932,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/OpenAISans-LightItalic.woff2",
+      "file": "assets/96ead8bf4b9b9f4b3e5c0f6f.woff2",
+      "status": "saved",
+      "hash": "d81f5b30a421264faa365c66442320d856f11092b6566a4537dd3542c3a7b3d6",
+      "bytes": 56456,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/OpenAISans-Regular.woff2",
+      "file": "assets/ee4c2bbea821cbb7539228b7.woff2",
+      "status": "saved",
+      "hash": "6b99d0284d5ed15733ea855fdacc8503d1f5e1b3945b02317d27773daa21d9dc",
+      "bytes": 53228,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/OpenAISans-RegularItalic.woff2",
+      "file": "assets/8a01ef68f1269358942a3921.woff2",
+      "status": "saved",
+      "hash": "e53e89b8718aaa0527f7185561e40040ee6dbe66395e8abc2492da5bbbda588f",
+      "bytes": 56268,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/OpenAISans-Medium.woff2",
+      "file": "assets/2492a9ad5187d51bb71c5026.woff2",
+      "status": "saved",
+      "hash": "507174d2e2c80f877d900e1346ba142509d303e2ef74424665e8493258c841e3",
+      "bytes": 56184,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/OpenAISans-MediumItalic.woff2",
+      "file": "assets/85dbb064d43f3f22f042e72f.woff2",
+      "status": "saved",
+      "hash": "6b3b1056d9e239f6dc1ef341982877dff1222b4e85116f33ceb58c2a4c2c21e6",
+      "bytes": 60360,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/OpenAISans-Semibold.woff2",
+      "file": "assets/cfe044d7979cbfc5d57bf9dc.woff2",
+      "status": "saved",
+      "hash": "e99a4258393f746552665fb8a07a7dcdacf2af4834cc0611148761005c7e006d",
+      "bytes": 56196,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/OpenAISans-SemiboldItalic.woff2",
+      "file": "assets/80bc20785b96160d11c5c347.woff2",
+      "status": "saved",
+      "hash": "757cddfec657a2ab20d37f5769be08f24fb88ffb065867eec86cc156a5f292f1",
+      "bytes": 60148,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/OpenAISans-Bold.woff2",
+      "file": "assets/ab444ce85c2f70c306f23447.woff2",
+      "status": "saved",
+      "hash": "2c23db1a93945fcb96f6826518848da0cc884787e4e308d9c099122c8c7e247e",
+      "bytes": 55624,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/OpenAISans-BoldItalic.woff2",
+      "file": "assets/2563fc0c82e9879f2593f6c6.woff2",
+      "status": "saved",
+      "hash": "c2e0fc7a872dae195289ce3dc1da0e4d3ea6a3b504a31db3a44226f877cad8ba",
+      "bytes": 58848,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/OpenAISansGreek-Light.woff2",
+      "file": "assets/d483ebcb3fd22a82015d1edd.woff2",
+      "status": "saved",
+      "hash": "013b33ec37b864cffc3c419b2ef43b5ff33051c7ef61e60200b3e51084a3153c",
+      "bytes": 45248,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/OpenAISansGreek-LightItalic.woff2",
+      "file": "assets/99d435cf81474bab19cf80fd.woff2",
+      "status": "saved",
+      "hash": "75fc2f7201c1d4f79cf745627fac740460413654816862d1833370b2ab992ff9",
+      "bytes": 48624,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/OpenAISansGreek-Regular.woff2",
+      "file": "assets/ede6919238319943096b31b1.woff2",
+      "status": "saved",
+      "hash": "95f5d6421f2d876f092875c0d900ad535b9df0cc45da0097b19a69f664e71284",
+      "bytes": 45488,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/OpenAISansGreek-RegularItalic.woff2",
+      "file": "assets/0e52cc9a265bfb46bf0ff557.woff2",
+      "status": "saved",
+      "hash": "e1b381846ee9184cba191809d98631c5ef1a14d90da16ecc2f8c747bf249a57c",
+      "bytes": 48716,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/OpenAISansGreek-Medium.woff2",
+      "file": "assets/5922ad9f0072fdb9811ca595.woff2",
+      "status": "saved",
+      "hash": "e7630c7fa4b10803a78f2f30be20195d0fd9a0fd6eced60703cc0b24f99b3de8",
+      "bytes": 48008,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/OpenAISansGreek-MediumItalic.woff2",
+      "file": "assets/c04a1116f7390155a30d8157.woff2",
+      "status": "saved",
+      "hash": "9a3b3815dc0dc089114acdc3830669c090ec14e0b33918b8dbe3842a8c9a0031",
+      "bytes": 52480,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/OpenAISansGreek-Semibold.woff2",
+      "file": "assets/50873913a19b821cb0021c19.woff2",
+      "status": "saved",
+      "hash": "0c8a5aab58d028b081de56da95958c761b975c04ba472599fc944c8b46904bd0",
+      "bytes": 47848,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/OpenAISansGreek-SemiboldItalic.woff2",
+      "file": "assets/f98f278e49d62644f55f7904.woff2",
+      "status": "saved",
+      "hash": "87b2ba3abc2d4235734f88db88f8b30493d72cc6c7fbd391b054a664afd9132e",
+      "bytes": 52304,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/OpenAISansGreek-Bold.woff2",
+      "file": "assets/bcf0da2b18b7c54b09a5298b.woff2",
+      "status": "saved",
+      "hash": "461713873707a5b449758ae38733091a3546651038029920c39abdd86a8b88e1",
+      "bytes": 46356,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/OpenAISansGreek-BoldItalic.woff2",
+      "file": "assets/c99c4e49478b46f6321c1c20.woff2",
+      "status": "saved",
+      "hash": "a836ed8b017a17fb13bf5755fc2da045398655ccc46e5d36c0d6af50ad3d6e78",
+      "bytes": 50436,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/OpenAISansCyrillic-Light.woff2",
+      "file": "assets/85213a58a92cc021d6d8e868.woff2",
+      "status": "saved",
+      "hash": "4dd7e2df4d3673657edac21bbcf607c4960f54476a5b56aa3cc7bafa5952bfa3",
+      "bytes": 68864,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/OpenAISansCyrillic-LightItalic.woff2",
+      "file": "assets/23bcb5fdfdb6366cc6642391.woff2",
+      "status": "saved",
+      "hash": "9f479bd2b227ec4538c257cc29558ad4ed70ed0eb15ebc4b9ce64d4347421718",
+      "bytes": 72584,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/OpenAISansCyrillic-Regular.woff2",
+      "file": "assets/2a867c5baffba91f8ce48ae4.woff2",
+      "status": "saved",
+      "hash": "b6bca7a86fd49dea22edaab2a46673354a8a49d19f9ed4f5bd6871a4a1fba2e5",
+      "bytes": 64224,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/OpenAISansCyrillic-RegularItalic.woff2",
+      "file": "assets/3aaaae21a32a7ae94b578303.woff2",
+      "status": "saved",
+      "hash": "8bea03323f3b264976939b1d1d43fe07dce6fdd057b42755271e837dcdcd4720",
+      "bytes": 67700,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/OpenAISansCyrillic-Medium.woff2",
+      "file": "assets/a02e132397070fb5607f3b79.woff2",
+      "status": "saved",
+      "hash": "637eba939ff69ed6e8ac8b8768ba4ca3379a036ec4eddb36bc8441db38bdb6ed",
+      "bytes": 67176,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/OpenAISansCyrillic-MediumItalic.woff2",
+      "file": "assets/7be46233349dcef134579867.woff2",
+      "status": "saved",
+      "hash": "1f08b111987dcc330e63a60b571137a64260d22120bfb163d2a17132b4f07918",
+      "bytes": 72080,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/OpenAISansCyrillic-Semibold.woff2",
+      "file": "assets/f53089db8267a9343da9899d.woff2",
+      "status": "saved",
+      "hash": "50e69c7fb2e6a57c45b71d34f7f9040bafb7a7d8e83da5e52692b40bebbca9d9",
+      "bytes": 66896,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/OpenAISansCyrillic-SemiboldItalic.woff2",
+      "file": "assets/c89b85158249dffa19170ea1.woff2",
+      "status": "saved",
+      "hash": "6818e956005ddc3d7e87c99ce396693d6645c017bab34b5b21570f1374abe9c1",
+      "bytes": 72068,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/OpenAISansCyrillic-Bold.woff2",
+      "file": "assets/7ab7fa3a6a584a6cc660fcee.woff2",
+      "status": "saved",
+      "hash": "7be60f62fd218cbd3074357c4c3b9013d2c0b01de6693cd5321a413563d825d1",
+      "bytes": 65948,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/OpenAISansCyrillic-BoldItalic.woff2",
+      "file": "assets/bf94a24f201132fb3e4d9741.woff2",
+      "status": "saved",
+      "hash": "27fa589d44e5d21d429bf2d5ef32dcc756f07b78808b402e579a1e2181107b50",
+      "bytes": 69868,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/OpenAISansArabicVariable.woff2",
+      "file": "assets/031568f4ed96bad3868d4e1a.woff2",
+      "status": "saved",
+      "hash": "ae4a33e9d35ae6214aca7a590bba1de00faaa208a9dac9d6ac0194cdc166accd",
+      "bytes": 131020,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/OpenAISansHebrewVariable.woff2",
+      "file": "assets/4f76d7c3c5cf99ca0251d390.woff2",
+      "status": "saved",
+      "hash": "38d3d6ca195c58feab345e25f41c837277db7643f7ca7bcb72b0fb9d9cfda51a",
+      "bytes": 98124,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/OpenAISansDevanagariVariable.woff2",
+      "file": "assets/ada4cac40380bd6fab94235f.woff2",
+      "status": "saved",
+      "hash": "47d9e5126ec406dbd9688e268650b9678f5652fe2c344ce66cce678c80266d4b",
+      "bytes": 184748,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/openai-sans/v4/OpenAISansHangulVariable.woff2",
+      "file": "assets/70a91f055992c0ccbe2edfad.woff2",
+      "status": "saved",
+      "hash": "5f2743e5f73284cde079dbf24ecdebfbe2e03f90f020ed0982d43767df3ad25a",
+      "bytes": 989024,
+      "contentType": "application/octet-stream",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/open-dyslexic/v1/opendyslexic-regular.woff2",
+      "file": "assets/32ac83b5d38744960c52bc89.woff2",
+      "status": "saved",
+      "hash": "0f6f471ba224c11e4720387882d55ddbe2e282eed728fbba3d73f53fd2892eb9",
+      "bytes": 76796,
+      "contentType": "font/woff2",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/open-dyslexic/v1/opendyslexic-italic.woff2",
+      "file": "assets/a58d4db2ee0a9b912354e90b.woff2",
+      "status": "saved",
+      "hash": "24fa01f99e3f9355b50530421f8f799aad07a933b37ddca64056194a2848d32e",
+      "bytes": 85000,
+      "contentType": "font/woff2",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/open-dyslexic/v1/opendyslexic-bold.woff2",
+      "file": "assets/5d2940f574eff64dca23c2d7.woff2",
+      "status": "saved",
+      "hash": "c1259497a6027673345e13e1caa030e7911b731c1691285870ad4f4438a32c66",
+      "bytes": 78984,
+      "contentType": "font/woff2",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/open-dyslexic/v1/opendyslexic-bolditalic.woff2",
+      "file": "assets/32e6f67cde553de8c1a05ede.woff2",
+      "status": "saved",
+      "hash": "8215314d1559d49d91d4e74a375aebcc20c514a412b363eba0a3a900c9fa682b",
+      "bytes": 90996,
+      "contentType": "font/woff2",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/mono/opendyslexicmono-regular.woff2",
+      "file": "assets/228c3f11963c8b30a31267c0.woff2",
+      "status": "saved",
+      "hash": "4f801f800317f2ca9bcded9ba7a9920dca961623269ad092d3a7ea503207fa55",
+      "bytes": 24120,
+      "contentType": "font/woff2",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/mono/hyperlegible-mono-latin.woff2",
+      "file": "assets/1eeb0a9216a1f93ddf3693b9.woff2",
+      "status": "saved",
+      "hash": "f0230cab68ecdc96766fde00a89cf3167e668c3a8756f844cab554dc3bcfd030",
+      "bytes": 17740,
+      "contentType": "font/woff2",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/common/fonts/mono/hyperlegible-mono-latin-ext.woff2",
+      "file": "assets/65875f958754383df5a05673.woff2",
+      "status": "saved",
+      "hash": "6815df031cebeeac513bf56f56ef45fdc749ed8b0c91b2cbd274e68c3d66903b",
+      "bytes": 10728,
+      "contentType": "font/woff2",
+      "reused": true
+    },
+    {
+      "url": "data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%239B9B9B' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='m6 8 4 4 4-4'/%3e%3c/svg%3e",
+      "file": "assets/a22a38d890855cc487df25e6.svg",
+      "status": "saved",
+      "hash": "fed95818f309fffd9a12d8d0544d093921cfc0edeff8276618bbf31eeae8b107",
+      "bytes": 185,
+      "contentType": "image/svg+xml",
+      "reused": true
+    },
+    {
+      "url": "data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='oklch(55.1%25 0.027 264.364)' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M6 8l4 4 4-4'/%3e%3c/svg%3e",
+      "file": "assets/bdba0d276ebf26c8068598b8.svg",
+      "status": "saved",
+      "hash": "6488ec10525c4afeeab301a5587f4074ac05c2c5f9dc14c9bb404ecf7c37ec44",
+      "bytes": 204,
+      "contentType": "image/svg+xml",
+      "reused": true
+    },
+    {
+      "url": "data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='white' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M12.207 4.793a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0l-2-2a1 1 0 011.414-1.414L6.5 9.086l4.293-4.293a1 1 0 011.414 0z'/%3e%3c/svg%3e",
+      "file": "assets/26b002fc792e517ca20fd7e7.svg",
+      "status": "saved",
+      "hash": "c15970800073472d0c206b30a66f754d37bbf9f13f1d66e8b5b5fe9514216c8b",
+      "bytes": 206,
+      "contentType": "image/svg+xml",
+      "reused": true
+    },
+    {
+      "url": "data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='white' xmlns='http://www.w3.org/2000/svg'%3e%3ccircle cx='8' cy='8' r='3'/%3e%3c/svg%3e",
+      "file": "assets/d99f0c31d2ee203b69b84c5e.svg",
+      "status": "saved",
+      "hash": "acc27849875830cb0e51eb980d06a24261a5d30e44a85e5be9547c050ef18111",
+      "bytes": 108,
+      "contentType": "image/svg+xml",
+      "reused": true
+    },
+    {
+      "url": "data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 16 16'%3e%3cpath stroke='white' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M4 8h8'/%3e%3c/svg%3e",
+      "file": "assets/8f98213807e607977e657e06.svg",
+      "status": "saved",
+      "hash": "ec244512d4e5946b1a88242cbe436fe99eae9f2a0e8571d5937e80c3ca6f2959",
+      "bytes": 175,
+      "contentType": "image/svg+xml",
+      "reused": true
+    },
+    {
+      "url": "data:image/svg+xml;base64,PHN2ZwogIHdpZHRoPSIxNiIKICBoZWlnaHQ9IjE2IgogIHZpZXdCb3g9IjAgMCAxNiAxNiIKICBmaWxsPSJjdXJyZW50Q29sb3IiCiAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogIGRhdGEtcnRsLWZsaXA9IiIKPgo8cGF0aAogICAgZD0iTTYuMDI5MjUgMy4wMjkyOUM2LjI1NjUyIDIuODAyMDIgNi42MDgwMyAyLjc3MzgyIDYuODY2MTYgMi45NDQzM0w2Ljk3MDY1IDMuMDI5MjlMMTEuNDcwNyA3LjUyOTI5QzExLjczMDQgNy43ODg5OSAxMS43MzA0IDguMjExIDExLjQ3MDcgOC40NzA3TDYuOTcwNjUgMTIuOTcwN0M2LjcxMDk1IDEzLjIzMDQgNi4yODg5NSAxMy4yMzA0IDYuMDI5MjUgMTIuOTcwN0M1Ljc2OTU1IDEyLjcxMSA1Ljc2OTU1IDEyLjI4OSA2LjAyOTI1IDEyLjAyOTNMMTAuMDU4NSA3Ljk5OTk5TDYuMDI5MjUgMy45NzA3TDUuOTQ0MjkgMy44NjYyQzUuNzczNzggMy42MDgwNyA1LjgwMTk4IDMuMjU2NTYgNi4wMjkyNSAzLjAyOTI5WiIKICAvPgo8L3N2Zz4=",
+      "file": "assets/657bf25be543de563b948d61.svg",
+      "status": "saved",
+      "hash": "82b612988ffdcd12690aab6094c23803f9652184f7206fab5a5463a6a6e269a6",
+      "bytes": 486,
+      "contentType": "image/svg+xml",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/ctf-cdn/30bafe12-ad88-4ae0-8ed8-0045ffc1a17c/form-bg.jpg",
+      "file": "assets/4f3fd088ed4d35b2ea95da65.jpg",
+      "status": "saved",
+      "hash": "aa70cfe725a0137e2c255d619fcc3341826a0d2514b8c520c7d52e6808616e8e",
+      "bytes": 195673,
+      "contentType": "image/jpeg",
+      "reused": true
+    },
+    {
+      "url": "https://persistent.oaistatic.com/assets/m/bundled-oauth-background-mobile-light.webp",
+      "file": "assets/bb7369f59e0c8b3cb57d81da.webp",
+      "status": "saved",
+      "hash": "192cc5f1e3c43c95aa3ebc16d65904acd90329a343c107bdc7f91807f6e115cc",
+      "bytes": 59786,
+      "contentType": "image/webp",
+      "reused": true
+    },
+    {
+      "url": "https://persistent.oaistatic.com/assets/m/google-oauth-permission-error-background-v1.png",
+      "file": "assets/52cd01a6d0d01567e6b2a558.png",
+      "status": "saved",
+      "hash": "40a4fcbda47bd300870a01ec80ac036494575bbbd9d57829ca4162be77d4a009",
+      "bytes": 317161,
+      "contentType": "image/png",
+      "reused": true
+    },
+    {
+      "url": "https://openaiassets.blob.core.windows.net/$web/chatgpt/clients/noauth/open_app_mobile_banner.webp",
+      "file": "assets/9549ffeef98683601854ac72.webp",
+      "status": "saved",
+      "hash": "7582dd4a1175269028b8a85c18bf898697c040a2d42895f3858328ebdb21c378",
+      "bytes": 2376,
+      "contentType": "image/webp",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/chatgpt/ctf-cdn/student-landing/cards-more-v2.png",
+      "file": "assets/c523025a6b4edaa9eee7b3c7.png",
+      "status": "saved",
+      "hash": "7ff0b0e0dd6bd304eab8fde850b9a65bd8838822777b98ce2397cf0851e1d4e3",
+      "bytes": 3779,
+      "contentType": "image/png",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/chatgpt/ctf-cdn/student-landing/faq-bubble-small-v2.png",
+      "file": "assets/2cc6145735e533c4fc425780.png",
+      "status": "saved",
+      "hash": "3a6353232ed6b2cf1931839c4717343aa9357dc229987812425fea90ba459d3f",
+      "bytes": 4902,
+      "contentType": "image/png",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/chatgpt/ctf-cdn/student-landing/offer-flowers-v2.png",
+      "file": "assets/995f7cb193251ffefba26ba9.png",
+      "status": "saved",
+      "hash": "18fecea94908726cbf9e91e3dc3797c14312d99aa3f647a98eecf50c36f9fcb4",
+      "bytes": 21958,
+      "contentType": "image/png",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/chatgpt/ctf-cdn/student-landing/splash-scribble-v2.png",
+      "file": "assets/0cf5d9bb19218b510dac10dc.png",
+      "status": "saved",
+      "hash": "8a54655b12882e6283802b1d7553a6550ec41c4c2d1b23310c6239af3e9fd39c",
+      "bytes": 19051,
+      "contentType": "image/png",
+      "reused": true
+    },
+    {
+      "url": "https://cdn.openai.com/chatgpt/ctf-cdn/student-landing/splash-stars-v2.png",
+      "file": "assets/f6fe02d31b14b0055627af5d.png",
+      "status": "saved",
+      "hash": "97ebac3003ff62bab24cc6723f47f8556a0de44147a6685e9191958771bddfa8",
+      "bytes": 6812,
+      "contentType": "image/png",
+      "reused": true
+    },
+    {
+      "url": "https://persistent.oaistatic.com/assets/m/bundled-oauth-background-desktop-light.webp",
+      "file": "assets/b489df0c7aadbb77e0096518.webp",
+      "status": "saved",
+      "hash": "4c49aceba446e31e230daa7ad8930014ec6cac2c1d3afb535fa1e79d956ee828",
+      "bytes": 79774,
+      "contentType": "image/webp",
+      "reused": true
+    },
+    {
+      "url": "https://persistent.oaistatic.com/assets/m/bundled-oauth-background-mobile-dark.webp",
+      "file": "assets/ed2ddfe701c715bc850e5eac.webp",
+      "status": "saved",
+      "hash": "9c230e065e71e35f135123feeaff01b89dcde49428badd496035e1cde2c00d87",
+      "bytes": 86604,
+      "contentType": "image/webp",
+      "reused": true
+    },
+    {
+      "url": "https://persistent.oaistatic.com/assets/m/bundled-oauth-background-desktop-dark.webp",
+      "file": "assets/b3312210c6bd060cd115bd64.webp",
+      "status": "saved",
+      "hash": "df3ddb6bb8cf0d03e7608e12c098394be2c2b26ea8c14a1cf79b824cf8a4d96c",
+      "bytes": 107700,
+      "contentType": "image/webp",
+      "reused": true
+    },
+    {
+      "url": "https://chatgpt.com/cdn/assets/KaTeX_AMS-Regular-e1why8ff.woff2",
+      "file": "assets/b33c5aaf47b191a04a223d16.woff2",
+      "status": "saved",
+      "hash": "0cdd387c9590a1a9f9794560022dbb59654a7d86f187aa0c81495ad42d3a7308",
+      "bytes": 28076,
+      "contentType": "font/woff2",
+      "reused": true
+    },
+    {
+      "url": "https://chatgpt.com/cdn/assets/KaTeX_Caligraphic-Bold-n63xiolk.woff2",
+      "file": "assets/384be795aaaedadaed9cf526.woff2",
+      "status": "saved",
+      "hash": "de7701e42cf1f4cf0b766c03fb27977207eee2f4fd5d76fa82188406da43ea4c",
+      "bytes": 6912,
+      "contentType": "font/woff2",
+      "reused": true
+    },
+    {
+      "url": "https://chatgpt.com/cdn/assets/KaTeX_Caligraphic-Regular-npwmqylf.woff2",
+      "file": "assets/6f14f0dc0308b91af36de7f5.woff2",
+      "status": "saved",
+      "hash": "5d53e70ad607c2352162dec9e0923fb54ecdafaccbf604cd8dcf7d00facb989b",
+      "bytes": 6908,
+      "contentType": "font/woff2",
+      "reused": true
+    },
+    {
+      "url": "https://chatgpt.com/cdn/assets/KaTeX_Fraktur-Bold-ikhebgtj.woff2",
+      "file": "assets/763715b038d48e166b1da55e.woff2",
+      "status": "saved",
+      "hash": "74444efd593c005e3f4573b44524704c0af0a937fe911cca9e94068d0d140d3f",
+      "bytes": 11348,
+      "contentType": "font/woff2",
+      "reused": true
+    },
+    {
+      "url": "https://chatgpt.com/cdn/assets/KaTeX_Fraktur-Regular-i0egury6.woff2",
+      "file": "assets/6f3b01242d5c5d6c066919a7.woff2",
+      "status": "saved",
+      "hash": "51814d270d06ff0255dba0799994fa4d8c84d11f09951d47595f4abb1f3602dc",
+      "bytes": 11316,
+      "contentType": "font/woff2",
+      "reused": true
+    },
+    {
+      "url": "https://chatgpt.com/cdn/assets/KaTeX_Main-Bold-ktk38ybk.woff2",
+      "file": "assets/16c624e4ba19383c75662e08.woff2",
+      "status": "saved",
+      "hash": "0f60d1b897938ec918c8ce073092411baf9438f6739465693ff18b0f9d20b021",
+      "bytes": 25324,
+      "contentType": "font/woff2",
+      "reused": true
+    },
+    {
+      "url": "https://chatgpt.com/cdn/assets/KaTeX_Main-BoldItalic-oj033t4i.woff2",
+      "file": "assets/09abe69befb071e8bf743bec.woff2",
+      "status": "saved",
+      "hash": "99cd42a3c072d918f2f44984a807cf7aa16e13545fd0875fc07c6c65f99e715b",
+      "bytes": 16780,
+      "contentType": "font/woff2",
+      "reused": true
+    },
+    {
+      "url": "https://chatgpt.com/cdn/assets/KaTeX_Main-Italic-2p4bq1jf.woff2",
+      "file": "assets/e7d225245674b014dc01af5e.woff2",
+      "status": "saved",
+      "hash": "97479ca6cce906abc961ecac96faa5f9ca2e61b8e7670d475826bcdee9a7c267",
+      "bytes": 16988,
+      "contentType": "font/woff2",
+      "reused": true
+    },
+    {
+      "url": "https://chatgpt.com/cdn/assets/KaTeX_Main-Regular-hbkzldb8.woff2",
+      "file": "assets/bf686c67b9c2867b5eaa8821.woff2",
+      "status": "saved",
+      "hash": "c2342cd8b869e01752a9321dc17213fc40d4d04c79688c1d43f2cf316abd7866",
+      "bytes": 26272,
+      "contentType": "font/woff2",
+      "reused": true
+    },
+    {
+      "url": "https://chatgpt.com/cdn/assets/KaTeX_Math-BoldItalic-jdo1yxu8.woff2",
+      "file": "assets/610b2db007d46caa732035f0.woff2",
+      "status": "saved",
+      "hash": "dc47344dbb6cb5b655c8460d561f4df5f501b90c804ad3c6cec65fe322351ab1",
+      "bytes": 16400,
+      "contentType": "font/woff2",
+      "reused": true
+    },
+    {
+      "url": "https://chatgpt.com/cdn/assets/KaTeX_Math-Italic-cz4b2ure.woff2",
+      "file": "assets/db06d5178c2668011ba74e53.woff2",
+      "status": "saved",
+      "hash": "7af58c5ec8f132a2ddde9027c6d7814decce4d3b822a11192a42a20e2e973264",
+      "bytes": 16440,
+      "contentType": "font/woff2",
+      "reused": true
+    },
+    {
+      "url": "https://chatgpt.com/cdn/assets/KaTeX_SansSerif-Bold-otxc8itm.woff2",
+      "file": "assets/f790800e8c5a92c5ab5cf5a3.woff2",
+      "status": "saved",
+      "hash": "e99ae51144bf1232efcc1bfe5add36262c6866b0faab24fa75740e1b98577a62",
+      "bytes": 12216,
+      "contentType": "font/woff2",
+      "reused": true
+    },
+    {
+      "url": "https://chatgpt.com/cdn/assets/KaTeX_SansSerif-Italic-k4kksncm.woff2",
+      "file": "assets/952e7ac150d73e1edf42845d.woff2",
+      "status": "saved",
+      "hash": "00b26ac825e2095056396e0553b8ac26d3f8ad158c3826e28b4c45b385c4714a",
+      "bytes": 12028,
+      "contentType": "font/woff2",
+      "reused": true
+    },
+    {
+      "url": "https://chatgpt.com/cdn/assets/KaTeX_SansSerif-Regular-ltw53ck4.woff2",
+      "file": "assets/664cf8350a253708d9f7c3f5.woff2",
+      "status": "saved",
+      "hash": "68e8c73ef42afd3ccec58bf0fba302cce448938e7fc020a5e31f8a952eee1342",
+      "bytes": 10344,
+      "contentType": "font/woff2",
+      "reused": true
+    },
+    {
+      "url": "https://chatgpt.com/cdn/assets/KaTeX_Script-Regular-oybd33cp.woff2",
+      "file": "assets/09b1cad32eef78df3642ca23.woff2",
+      "status": "saved",
+      "hash": "036d4e95149b69ff9bcc0cd55771efeb25ffa3947293e69acd78d5ac328c684b",
+      "bytes": 9644,
+      "contentType": "font/woff2",
+      "reused": true
+    },
+    {
+      "url": "https://chatgpt.com/cdn/assets/KaTeX_Size1-Regular-cjccv44r.woff2",
+      "file": "assets/420a3d6196877328c0e26990.woff2",
+      "status": "saved",
+      "hash": "6b47c40166b6dbe21a5dfca7718413f2147fd2399be1ba605d8ad39cedf25dfe",
+      "bytes": 5468,
+      "contentType": "font/woff2",
+      "reused": true
+    },
+    {
+      "url": "https://chatgpt.com/cdn/assets/KaTeX_Size2-Regular-onxq3bzc.woff2",
+      "file": "assets/55c9d3d8217c4f4337f99296.woff2",
+      "status": "saved",
+      "hash": "d04c54219f9eaec6d4d4fd42dfb28785975a4794d6b2fc71e566b9cd6db842dd",
+      "bytes": 5208,
+      "contentType": "font/woff2",
+      "reused": true
+    },
+    {
+      "url": "data:font/woff2;base64,d09GMgABAAAAAA4oAA4AAAAAHbQAAA3TAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAgRQIDgmcDBEICo1oijYBNgIkA14LMgAEIAWJAAeBHAyBHBvbGiMRdnO0IkRRkiYDgr9KsJ1NUAf2kILNxgUmgqIgq1P89vcbIcmsQbRps3vCcXdYOKSWEPEKgZgQkprQQsxIXUgq0DqpGKmIvrgkeVGtEQD9DzAO29fM9jYhxZEsL2FeURH2JN4MIcTdO049NCVdxQ/w9NrSYFEBKTDKpLKfNkCGDc1RwjZLQcm3vqJ2UW9Xfa3tgAHz6ivp6vgC2yD4/6352ndnN0X0TL7seypkjZlMsjmZnf0Mm5Q+JykRWQBKCVCVPbARPXWyQtb5VgLB6Biq7/Uixcj2WGqdI8tGSgkuRG+t910GKP2D7AQH0DB9FMDW/obJZ8giFI3Wg8Cvevz0M+5m0rTh7XDBlvo9Y4vm13EXmfttwI4mBo1EG15fxJhUiCLbiiyCf/ZA6MFAhg3pGIZGdGIVjtPn6UcMk9A/UUr9PhoNsCENw1APAq0gpH73e+M+0ueyHbabc3vkbcdtzcf/fiy+NxQEjf9ud/ELBHAXJ0nk4z+MXH2Ev/kWyV4k7SkvpPc9Qr38F6RPWnM9cN6DJ0AdD1BhtgABtmoRoFCvPsBAumNm6soZG2Gk5GyVTo2sJncSyp0jQTYoR6WDvTwaaEcHsxHfvuWhHA3a6bN7twRKtcGok6NsCi7jYRrM2jExsUFMxMQYuJbMhuWNOumEJy9hi29Dmg5zMp/A5+hhPG19j1vBrq8JTLr8ki5VLPmG/PynJHVul440bxg5xuymHUFPBshC+nA9I1FmwbRBTNHAcik3Oae0cxKoI3MOriM42UrPe51nsaGxJ+WfXubAsP84aabUlQSJ1IiE0iPETLUU4CATgfXSCSpuRFRmCGbO+wSpAnzaeaCYW1VNEysRtuXCEL1kUFUbbtMv3Tilt/1c11jt3Q5bbMa84cpWipp8Elw3MZhOHsOlwwVUQM3lAR35JiFQbaYCRnMF2lxAWoOg2gyoIV4PouX8HytNIfLhqpJtXB4vjiViUI8IJ7bkC4ikkQvKksnOTKICwnqWSZ9YS5f0WCxmpgjbIq7EJcM4aI2nmhLNY2JIUgOjXZFWBHb+x5oh6cwb0Tv1ackHdKi0I9OO2wE9aogIOn540CCCziyhN+IaejtgAONKznHlHyutPrHGwCx9S6B8kfS4Mfi4Eyv7OU730bT1SCBjt834cXsf43zVjPUqqJjgrjeGnBxSG4aYAKFuVbeCfkDIjAqMb6yLNIbCuvXhMH2/+k2vkNpkORhR59N1CkzoOENvneIosjYmuTxlhUzaGEJQ/iWqx4dmwpmKjrwTiTGTCVozNAYqk/zXOndWxuWSmJkQpJw3pK5KX6QrLt5LATMqpmPAQhkhK6PUjzHUn7E0gHE0kPE0iKkolgkUx9SZmVAdDgpffdyJKg3k7VmzYGCwVXGz/tXmkOIp+vcWs+EMuhhvN0h9uhfzWJziBQmCREGSIFmQIkgVpAnSBRmC//6hkLZwaVhwxlrJSOdqlFtOYxlau9F2QN5Y98xmIAsiM1HVp2VFX+DHHGg6Ecjh3vmqtidX3qHI2qycTk/iwxSt5UzTmEP92ZBnEWTk4Mx8Mpl78ZDokxg/KWb+Q0QkvdKVmq3TMW+RXEgrsziSAfNXFMhDc60N5N9jQzjfO0kBKpUZl0ZmwJ41j/B9Hz6wmRaJB84niNmQrzp9eSlQCDDzazGDdVi3P36VZQ+Jy4f9UBNp+3zTjqI4abaFAm+GShVaXlsGdF3FYzZcDI6cori4kMxUECl9IjJZpzkvitAoxKue+90pDMvcKRxLl53TmOKCmV/xRolNKSqqUxc6LStOETmFOiLZZptlZepcKiAzteG8PEdpnQpbOMNcMsR4RR2Bs0cKFEvSmIjAFcnarqwUL4lDhHmnVkwu1IwshbiCcgvOheZuYyOteufZZwlcTlLgnZ3o/WcYdzZHW/WGaqaVfmTZ1aWCceJjkbZqsfbkOtcFlUZM/jy+hXHDbaUobWqqXaeWobbLO99yG5N3U4wxco0rQGGcOLASFMXeJoham8M+/x6O2WywK2l4HGbq1CoUyC/IZikQhdq3SiuNrvAEj0AVu9x2x3lp/xWzahaxidezFVtdcb5uEnzyl0ZmYiuKI0exvCd4Xc9CV1KB0db00z92wDPde0kukbvZIWN6jUWFTmPIC/Y4UPCm8UfDTFZpZNon1qLFTkBhxzB+FjQRA2Q/YRJT8pQigslMaUpFyAG8TMlXigiqmAZX4xgijKjRlGpLE0GdplRfCaJo0JQaSxNBk6ZmMzcya0FmrcisDdn0Q3HI2sWSppYigmlM1XT/kLQZSNpMJG0WkjYbSZuDpM1F0uYhFc1HxU4m1QJjDK6iL0S5uSj5rgXc3RejEigtcRBtqYPQsiTskmO5vosV+q4VGIKbOkDg0jtRrq+Em1YloaTFar3EGr1EUC8R0kus1Uus00usL97ABr2BjXoDm/QGNhuWtMVBKOwg/i78lT7hBsAvDmwHc/ao3vmUbBmhjeYySZNWvGkfZAgISDSaDo1SVpzGDsAEkF8B+gEapViUoZgUWXcRIGFZNm6gWbAKk0bp0k1MHG9fLYtV4iS2SmLEQFARzRcnf9PUS0LVn05/J9MiRRBU3v2IrvW974v4N00L7ZMk0wXP1409CHo/an8zTRHD3eSJ6m8D4YMkZNl3M79sqeuAsr/m3f+8/yl7A50aiAEJgeBeMWzu7ui9UfUBCe2TIqZIoOd/3/udRBOQidQZUERzb2/VwZN1H/Sju82ew2H2Wfr6qvfVf3hqwDvAIpkQVFy4B9Pe9e4/XvPeceu7h3dvO56iJPf0+A6cqA2ip18ER+iFgggiuOkvj24bby0N9j2UHIkgqIt+sVgfodC4YghLSMjSZbH0VR/6dMDrYJeKHilKTemt6v6kvzvn3/RrdWtr0GoN/xL+Sex/cPYLUpepx9cz/D46UPU5KXgAQa+NDps1v6J3xP1i2HtaDB0M9aX2deA7SYff//+gUCovMmIK/qfsFcOk+4Y5ZN97XlG6zebqtMbKgeRFi51vnxTQYBUik2rS/Cn6PC8ADR8FGxsRPB82dzfND90gIcshOcYUkfjherBz53odpm6TP8txlwOZ71xmfHHOvq053qFF/MRlS3jP0ELudrf2OeN8DHvp6ZceLe8qKYvWz/7yp0u4dKPfli3CYq0O13Ih71mylJ80tOi10On8wi+F4+LWgDPeJ30msSQt9/vkmHq9/Lvo2b461mP801v3W4xTcs6CbvF9UDdrSt+A8OUbpSh55qAUFXWznBBfdeJ8a4d7ugT5tvxUza3h9m4H7ptTqiG4z0g5dc0X29OcGlhpGFMpQo9ytTS+NViZpNdvU4kWx+LKxNY10kQ1yqGXrhe4/1nvP7E+nd5A92TtaRplbHSqoIdOqtRWti+fkB5/n1+/VvCmz12pG1kpQWsfi1ftlBobm0bpngs16CHkbIwdLnParxtTV3QYRlfJ0KFskH7pdN/YDn+yRuSd7sNH3aO0DYPggk6uWuXrfOc+fa3VTxFVvKaNxHsiHmsXyCLIE5yuOeN3/Jdf8HBL/5M6shjyhxHx9BjB1O0+4NLOnjLLSxwO7ukN4jMbOIcD879KLSi6Pk61Oqm2377n8079PXEEQ7cy7OKEC9nbpet118fxweTafpt69x/Bt8UqGzNQt7aelpc44dn5cqhwf71+qKp/Zf/+a0zcizOUWpl/iBcSXip0pplkatCchoH5c5aUM8I7/dWxAej8WicPL1URFZ9BDJelUwEwTkGqUhgSlydVes95YdXvhh9Gfz/aeFWvgVb4tuLbcv4+wLdutVZv/cUonwBD/6eDlE0aSiKK/uoH3+J1wDE/jMVqY2ysGufN84oIXB0sPzy8ollX/LegY74DgJXJR57sn+VGza0x3DnuIgABFM15LmajjjsNlYj+JEZGbuRYcAMOWxFkPN2w6Wd46xo4gVWQR/X4lyI/R6K/YK0110GzudPRW7Y+UOBGTfNNzHeYT0fiH0taunBpq9HEW8OKSaBGj21L0MqenEmNRWBAWDWAk4CpNoEZJ2tTaPFgbQYj8HxtFilErs3BTRwT8uO1NXQaWfIotchmPkAF5mMBAliEmZiOGVgCG9LgRzpscMAOOwowlT3JhusdazXGSC/hxR3UlmWVwWHpOIKheqONvjyhSiTHIkVUco5bnji8m//zL7PKaT1Vl5I6UE609f+gkr6MZKVyKc7zJRmCahLsdlyA5fdQkRSan9LgnnLEyGSkaKJCJog0wAgvepWBt80+1yKln1bMVtCljfNWDueKLsWwaEbBSfSPTEmVRsUcYYMnEjcjeyCZzBXK9E9BYBXLKjOSpUDR+nEV3TFSUdQaz+ot98QxgXwx0GQ+EEUAKB2qZPkQQ0GqFD8UPFMqyaCHM24BZmSGic9EYMagKizOw9Hz50DMrDLrqqLkTAhplMictiCAx5S3BIUQdeJeLnBy2CNtMfz6cV4u8XKoFZQesbf9YZiIERiHjaNodDW6LgcirX/mPnJIkBGDUpTBhSa0EIr38D5hCIszhCM8URGBqImoWjpvpt1ebu/v3Gl3qJfMnNM+9V+kiRFyROTPHQWOcs1dNW94/ukKMPZBvDi55i5CttdeJz84DLngLqjcdwEZ87bFFR8CIG35OAkDVN6VRDZ7aq67NteYqZ2lpT8oYB2CytoBd6VuAx4WgiAsnuj3WohG+LugzXiQRDeM3XYXlULv4dp5VFYC",
+      "file": "assets/22ca035ee65fb77cfbbc13de.woff2",
+      "status": "saved",
+      "hash": "73d591271b1604960cb10bb90fee021670af7297017e0e98480b332d11f51995",
+      "bytes": 3624,
+      "contentType": "font/woff2",
+      "reused": true
+    },
+    {
+      "url": "https://chatgpt.com/cdn/assets/KaTeX_Size4-Regular-nv9nppzf.woff2",
+      "file": "assets/899935c541a23e4f7d882726.woff2",
+      "status": "saved",
+      "hash": "a4af7d414440a1c1790825cfb700cf9cf43b0f2c4b04f0ebc523011ad9853ec0",
+      "bytes": 4928,
+      "contentType": "font/woff2",
+      "reused": true
+    },
+    {
+      "url": "https://chatgpt.com/cdn/assets/KaTeX_Typewriter-Regular-iqvr3vwu.woff2",
+      "file": "assets/3d0c1593273774d700c685b0.woff2",
+      "status": "saved",
+      "hash": "71d517d67827787cfabdf186914cc3358eda539e37931941f2b2fd4a21f68c0b",
+      "bytes": 13568,
+      "contentType": "font/woff2",
+      "reused": true
+    },
+    {
+      "url": "data:image/svg+xml;utf8,<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"black\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M9.13374 2.94433C9.39187 2.77382 9.74338 2.80202 9.97065 3.02929C10.1979 3.25656 10.2261 3.60807 10.0556 3.8662L9.97065 3.9707L5.94136 7.99999L9.97065 12.0293L10.0556 12.1338C10.2261 12.3919 10.1979 12.7434 9.97065 12.9707C9.74338 13.198 9.39187 13.2262 9.13374 13.0557L9.02925 12.9707L4.52925 8.4707C4.26955 8.211 4.26955 7.78899 4.52925 7.52929L9.02925 3.02929L9.13374 2.94433Z\" /></svg>",
+      "file": "assets/fcfb45b133d6b7dcb65a73d0.svg",
+      "status": "saved",
+      "hash": "f99b0d6ebc3eb8fd93cf4e8e0dc1f4728fdec3766ba8aa5b2a7866fdb85d6688",
+      "bytes": 493,
+      "contentType": "image/svg+xml",
+      "reused": true
+    },
+    {
+      "url": "data:image/svg+xml;utf8,<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"white\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M9.13374 2.94433C9.39187 2.77382 9.74338 2.80202 9.97065 3.02929C10.1979 3.25656 10.2261 3.60807 10.0556 3.8662L9.97065 3.9707L5.94136 7.99999L9.97065 12.0293L10.0556 12.1338C10.2261 12.3919 10.1979 12.7434 9.97065 12.9707C9.74338 13.198 9.39187 13.2262 9.13374 13.0557L9.02925 12.9707L4.52925 8.4707C4.26955 8.211 4.26955 7.78899 4.52925 7.52929L9.02925 3.02929L9.13374 2.94433Z\" /></svg>",
+      "file": "assets/03393cdfb6ac823097a04786.svg",
+      "status": "saved",
+      "hash": "d0de64af0721425f330731e38c9022f97304b13a824bb09a38019f13b29a0930",
+      "bytes": 493,
+      "contentType": "image/svg+xml",
+      "reused": true
+    },
+    {
+      "url": "data:image/svg+xml;utf8,<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"black\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M6.02925 3.02929C6.25652 2.80202 6.60803 2.77382 6.86616 2.94433L6.97065 3.02929L11.4707 7.52929C11.7304 7.78899 11.7304 8.211 11.4707 8.4707L6.97065 12.9707C6.71095 13.2304 6.28895 13.2304 6.02925 12.9707C5.76955 12.711 5.76955 12.289 6.02925 12.0293L10.0585 7.99999L6.02925 3.9707L5.94429 3.8662C5.77378 3.60807 5.80198 3.25656 6.02925 3.02929Z\" /></svg>",
+      "file": "assets/9a8f20df007259015a0869e9.svg",
+      "status": "saved",
+      "hash": "fe803f999715d1550ceb0790b0f4758afe45df56864d9e4efa9ad51776ab3505",
+      "bytes": 460,
+      "contentType": "image/svg+xml",
+      "reused": true
+    },
+    {
+      "url": "data:image/svg+xml;utf8,<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"white\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M6.02925 3.02929C6.25652 2.80202 6.60803 2.77382 6.86616 2.94433L6.97065 3.02929L11.4707 7.52929C11.7304 7.78899 11.7304 8.211 11.4707 8.4707L6.97065 12.9707C6.71095 13.2304 6.28895 13.2304 6.02925 12.9707C5.76955 12.711 5.76955 12.289 6.02925 12.0293L10.0585 7.99999L6.02925 3.9707L5.94429 3.8662C5.77378 3.60807 5.80198 3.25656 6.02925 3.02929Z\" /></svg>",
+      "file": "assets/d05028a192f934d180822de9.svg",
+      "status": "saved",
+      "hash": "0fd5fd69627fbd2da514e9c4dca181348eacbcded33044c3c35ab10517980ba3",
+      "bytes": 460,
+      "contentType": "image/svg+xml",
+      "reused": true
+    },
+    {
+      "url": "https://chatgpt.com/cdn/assets/sprites-shell-f705d3e2.svg",
+      "file": "assets/b89f9a96fe4179b3339a22e5.svg",
+      "status": "saved",
+      "hash": "f705d3e24224c20c76ef935dec1006dab7570bc50274935760f1d89a034cf8ec",
+      "bytes": 75994,
+      "contentType": "image/svg+xml",
+      "reused": true
+    },
+    {
+      "url": "https://chatgpt.com/cdn/assets/sprites-core-592165ef.svg",
+      "file": "assets/144fa31f561e3b89504b8177.svg",
+      "status": "saved",
+      "hash": "9448570a8201c82924ba3af8ad23718549d028d221f1ef3df4f1a96a92578630",
+      "bytes": 552236,
+      "contentType": "image/svg+xml",
+      "reused": true
+    },
+    {
+      "url": "data:image/svg+xml,%3Csvg xmlns=\"http://www.w3.org/2000/svg\" width=\"32\" height=\"32\"%3E%3Crect width=\"32\" height=\"32\" rx=\"16\" fill=\"%23ddd\"/%3E%3C/svg%3E",
+      "file": "assets/557165f196aca4e3c2fe8ea5.svg",
+      "status": "saved",
+      "hash": "d5b304c12c148ab91e2efc7ba3c8c4b197299253b64a36f287ef786d1bcb2a04",
+      "bytes": 119,
+      "contentType": "image/svg+xml",
+      "reused": true
+    },
+    {
+      "url": "https://chatgpt.com/cdn/assets/sprites-composer-ece24c50.svg",
+      "file": "assets/00a193679929a0bc7a913ec8.svg",
+      "status": "saved",
+      "hash": "ece24c508a79e51decf5870006d04da417b5d6db1936eb97b0d14ac06f7d7a50",
+      "bytes": 498,
+      "contentType": "image/svg+xml",
+      "reused": true
+    },
+    {
+      "url": "data:image/svg+xml,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"200\" height=\"20\"><path stroke=\"%23888\" stroke-width=\"1\" fill=\"none\" d=\"M1 10H196L190 5M190 15L196 10M197 4L197 16\"/></svg>",
+      "file": "assets/6ccbe47475950ccbee2b1953.svg",
+      "status": "saved",
+      "hash": "52739c18b11f273a0c0b6409cfd965848cd9572b1b444cb3543d4db2fbb9b62e",
+      "bytes": 167,
+      "contentType": "image/svg+xml",
+      "reused": true
+    },
+    {
+      "url": "https://chatgpt.com/cdn/assets/mini.ece1cf46d1.svg",
+      "file": "assets/2317a1ef9d2de4849e0875d6.svg",
+      "status": "saved",
+      "hash": "0218e61b96f34f79b0b04493b7bd207f8770fbab65f15bce37b2993c383dfee8",
+      "bytes": 3849,
+      "contentType": "image/svg+xml",
+      "reused": true
+    },
+    {
+      "url": "https://chatgpt.com/cdn/assets/KaTeX_AMS-Regular.a79f1c3119.woff2",
+      "file": "assets/0735089cc60a92ea583b0a6d.woff2",
+      "status": "saved",
+      "hash": "0cdd387c9590a1a9f9794560022dbb59654a7d86f187aa0c81495ad42d3a7308",
+      "bytes": 28076,
+      "contentType": "font/woff2",
+      "reused": true
+    },
+    {
+      "url": "https://chatgpt.com/cdn/assets/KaTeX_AMS-Regular.1608a09b4a.woff",
+      "file": "assets/2e783b4116565ef5232e9c72.woff",
+      "status": "saved",
+      "hash": "30da91e84c893f875e252689faebdc590b2871145e8adc7f9a9d4dbd8ce0b251",
+      "bytes": 33516,
+      "contentType": "font/woff",
+      "reused": true
+    },
+    {
+      "url": "https://chatgpt.com/cdn/assets/KaTeX_AMS-Regular.4aafdb685c.ttf",
+      "file": "assets/59325b253d14c75b0727d344.ttf",
+      "status": "saved",
+      "hash": "68534840bcfdd2bffb6f0e8deb48684dd01e7f04ea2813267577afb906de1d13",
+      "bytes": 63632,
+      "contentType": "font/ttf",
+      "reused": true
+    },
+    {
+      "url": "https://chatgpt.com/cdn/assets/KaTeX_Caligraphic-Bold.ec17d13264.woff2",
+      "file": "assets/30c557fb4b38e66ad997e15b.woff2",
+      "status": "saved",
+      "hash": "de7701e42cf1f4cf0b766c03fb27977207eee2f4fd5d76fa82188406da43ea4c",
+      "bytes": 6912,
+      "contentType": "font/woff2",
+      "reused": true
+    },
+    {
+      "url": "https://chatgpt.com/cdn/assets/KaTeX_Caligraphic-Bold.b67709187b.woff",
+      "file": "assets/b0b9b0250fb8454d1bdebf76.woff",
+      "status": "saved",
+      "hash": "1ae6bd7475590e97e7f145a89e09ccde322f7a6bc0b91607b1c8b8ee28290fed",
+      "bytes": 7716,
+      "contentType": "font/woff",
+      "reused": true
+    },
+    {
+      "url": "https://chatgpt.com/cdn/assets/KaTeX_Caligraphic-Bold.cce5b8ecea.ttf",
+      "file": "assets/ad389b9c9f1b7a450cae9b68.ttf",
+      "status": "saved",
+      "hash": "07d8e303ce4fc12b4bb54f1004170dd190a1f3db45d400fe68060df3e0897268",
+      "bytes": 12368,
+      "contentType": "font/ttf",
+      "reused": true
+    },
+    {
+      "url": "https://chatgpt.com/cdn/assets/KaTeX_Caligraphic-Regular.55fac25845.woff2",
+      "file": "assets/099ff5276867e6b3f0f2d93d.woff2",
+      "status": "saved",
+      "hash": "5d53e70ad607c2352162dec9e0923fb54ecdafaccbf604cd8dcf7d00facb989b",
+      "bytes": 6908,
+      "contentType": "font/woff2",
+      "reused": true
+    },
+    {
+      "url": "https://chatgpt.com/cdn/assets/KaTeX_Caligraphic-Regular.dad44a7fc6.woff",
+      "file": "assets/93dcff06502d3e709db0c3d7.woff",
+      "status": "saved",
+      "hash": "3398dd02302557a793f2863f88e02d96ce10df2abffa07c8e9fa90775116e65c",
+      "bytes": 7656,
+      "contentType": "font/woff",
+      "reused": true
+    },
+    {
+      "url": "https://chatgpt.com/cdn/assets/KaTeX_Caligraphic-Regular.07ef19e7b0.ttf",
+      "file": "assets/0a30bd3c1190e579534dda78.ttf",
+      "status": "saved",
+      "hash": "ed0b74372feefcbb9c0666b2e210da37b7e49fa7fbbf3eeb11db5f693dacfbb7",
+      "bytes": 12344,
+      "contentType": "font/ttf",
+      "reused": true
+    },
+    {
+      "url": "https://chatgpt.com/cdn/assets/KaTeX_Fraktur-Bold.d42a5579b0.woff2",
+      "file": "assets/2afdd5ff21d94f86895438d8.woff2",
+      "status": "saved",
+      "hash": "74444efd593c005e3f4573b44524704c0af0a937fe911cca9e94068d0d140d3f",
+      "bytes": 11348,
+      "contentType": "font/woff2",
+      "reused": true
+    },
+    {
+      "url": "https://chatgpt.com/cdn/assets/KaTeX_Fraktur-Bold.9f256b8593.woff",
+      "file": "assets/6877085f0ddd885510aa67fa.woff",
+      "status": "saved",
+      "hash": "9be7ceb88004ab8ad124082246fbfcca4091e36385d4ec6ed1df67375dad50fb",
+      "bytes": 13296,
+      "contentType": "font/woff",
+      "reused": true
+    },
+    {
+      "url": "https://chatgpt.com/cdn/assets/KaTeX_Fraktur-Bold.b18f59e1d1.ttf",
+      "file": "assets/5022c046c77d82cf980207df.ttf",
+      "status": "saved",
+      "hash": "9163df9c7122432e6495b4229fa9071cf9ae86a758ae5efc4924ec2e1a6dbce1",
+      "bytes": 19584,
+      "contentType": "font/ttf",
+      "reused": true
+    },
+    {
+      "url": "https://chatgpt.com/cdn/assets/KaTeX_Fraktur-Regular.d3c882a649.woff2",
+      "file": "assets/0dbcfbbdda3addbb58bd51c1.woff2",
+      "status": "saved",
+      "hash": "51814d270d06ff0255dba0799994fa4d8c84d11f09951d47595f4abb1f3602dc",
+      "bytes": 11316,
+      "contentType": "font/woff2",
+      "reused": true
+    },
+    {
+      "url": "https://chatgpt.com/cdn/assets/KaTeX_Fraktur-Regular.7c1871215e.woff",
+      "file": "assets/32fc2345077f6a8cf6febd38.woff",
+      "status": "saved",
+      "hash": "5e28753be717dac97f559f49bc10be9cf3c124ddcabda6659d11cb68febc6463",
+      "bytes": 13208,
+      "contentType": "font/woff",
+      "reused": true
+    },
+    {
+      "url": "https://chatgpt.com/cdn/assets/KaTeX_Fraktur-Regular.ed38e79f57.ttf",
+      "file": "assets/674c66aa0b4f4e76941e377f.ttf",
+      "status": "saved",
+      "hash": "1e6f9579e90e2cac37f8f60a597c436e075c114385652b7cbeb0dec0421291b3",
+      "bytes": 19572,
+      "contentType": "font/ttf",
+      "reused": true
+    },
+    {
+      "url": "https://chatgpt.com/cdn/assets/KaTeX_Main-Bold.c3fb5ac22f.woff2",
+      "file": "assets/f22a6cd4696091a2cad0af40.woff2",
+      "status": "saved",
+      "hash": "0f60d1b897938ec918c8ce073092411baf9438f6739465693ff18b0f9d20b021",
+      "bytes": 25324,
+      "contentType": "font/woff2",
+      "reused": true
+    },
+    {
+      "url": "https://chatgpt.com/cdn/assets/KaTeX_Main-Bold.d181c4650d.woff",
+      "file": "assets/a97e91078896e017c833b71c.woff",
+      "status": "saved",
+      "hash": "c76c5d696297d51b9cb1639c7da4334f0e7dec81b42b11213b5e25ef671bb822",
+      "bytes": 29912,
+      "contentType": "font/woff",
+      "reused": true
+    },
+    {
+      "url": "https://chatgpt.com/cdn/assets/KaTeX_Main-Bold.b74a1a8b2c.ttf",
+      "file": "assets/84c7590d99c6ee97541edafd.ttf",
+      "status": "saved",
+      "hash": "138ac28d1663b3037e9c5f52371fa5c63d8324f4a38d22cd573e6ea3a3fd0cf8",
+      "bytes": 51336,
+      "contentType": "font/ttf",
+      "reused": true
+    },
+    {
+      "url": "https://chatgpt.com/cdn/assets/KaTeX_Main-BoldItalic.6f2bb1dff2.woff2",
+      "file": "assets/a284db50c323887bff5c24b3.woff2",
+      "status": "saved",
+      "hash": "99cd42a3c072d918f2f44984a807cf7aa16e13545fd0875fc07c6c65f99e715b",
+      "bytes": 16780,
+      "contentType": "font/woff2",
+      "reused": true
+    },
+    {
+      "url": "https://chatgpt.com/cdn/assets/KaTeX_Main-BoldItalic.e3f82f9d27.woff",
+      "file": "assets/9c992c6a5ef91c3bccc9371a.woff",
+      "status": "saved",
+      "hash": "a6f7ec0d846ac7ad975adb8959c37ed49b94acbc4ae436db9ce9e20287e4a64c",
+      "bytes": 19412,
+      "contentType": "font/woff",
+      "reused": true
+    },
+    {
+      "url": "https://chatgpt.com/cdn/assets/KaTeX_Main-BoldItalic.70d8b0a530.ttf",
+      "file": "assets/6dd4676d3fbb3fd7648be9f2.ttf",
+      "status": "saved",
+      "hash": "70ee1f64a20f2048c21940ef46d0144fd215baa953ca69afd1e31e98544f708f",
+      "bytes": 32968,
+      "contentType": "font/ttf",
+      "reused": true
+    },
+    {
+      "url": "https://chatgpt.com/cdn/assets/KaTeX_Main-Italic.8916142bec.woff2",
+      "file": "assets/9bb30c18a02a71ed14a6aea1.woff2",
+      "status": "saved",
+      "hash": "97479ca6cce906abc961ecac96faa5f9ca2e61b8e7670d475826bcdee9a7c267",
+      "bytes": 16988,
+      "contentType": "font/woff2",
+      "reused": true
+    },
+    {
+      "url": "https://chatgpt.com/cdn/assets/KaTeX_Main-Italic.9024d815ba.woff",
+      "file": "assets/fa97f29d8652f24967d7f0ae.woff",
+      "status": "saved",
+      "hash": "f1d6ef86f3b11a528bd5185199bd2443ecb2b0dead96d88674b5a2c12be24bdf",
+      "bytes": 19676,
+      "contentType": "font/woff",
+      "reused": true
+    },
+    {
+      "url": "https://chatgpt.com/cdn/assets/KaTeX_Main-Italic.47373d1e51.ttf",
+      "file": "assets/06ee04362b0a963bb6b25d97.ttf",
+      "status": "saved",
+      "hash": "0d85ae7cc30f23790a7f1a58c4a112fdca8aae769b6ba11429af1d98b1b6cb3a",
+      "bytes": 33580,
+      "contentType": "font/ttf",
+      "reused": true
+    },
+    {
+      "url": "https://chatgpt.com/cdn/assets/KaTeX_Main-Regular.0462f03bdf.woff2",
+      "file": "assets/8385216ddd1b60ee3df66571.woff2",
+      "status": "saved",
+      "hash": "c2342cd8b869e01752a9321dc17213fc40d4d04c79688c1d43f2cf316abd7866",
+      "bytes": 26272,
+      "contentType": "font/woff2",
+      "reused": true
+    },
+    {
+      "url": "https://chatgpt.com/cdn/assets/KaTeX_Main-Regular.7f51fe0340.woff",
+      "file": "assets/3dfd596f3c58ed23a7700475.woff",
+      "status": "saved",
+      "hash": "c6368d87e8a1a3a5d337623d83d8dc4b868f242a9ad476237d6f8d1e0f168cdc",
+      "bytes": 30772,
+      "contentType": "font/woff",
+      "reused": true
+    },
+    {
+      "url": "https://chatgpt.com/cdn/assets/KaTeX_Main-Regular.b7f8fe9b5f.ttf",
+      "file": "assets/77926ac6c664e844236f2a8e.ttf",
+      "status": "saved",
+      "hash": "d0332f52868370fd83ae7fa46470f90c8f2eab2fcf12bc4f88080b340c95a830",
+      "bytes": 53580,
+      "contentType": "font/ttf",
+      "reused": true
+    },
+    {
+      "url": "https://chatgpt.com/cdn/assets/KaTeX_Math-BoldItalic.572d331f69.woff2",
+      "file": "assets/cb10af8f462d9706ba6b521e.woff2",
+      "status": "saved",
+      "hash": "dc47344dbb6cb5b655c8460d561f4df5f501b90c804ad3c6cec65fe322351ab1",
+      "bytes": 16400,
+      "contentType": "font/woff2",
+      "reused": true
+    },
+    {
+      "url": "https://chatgpt.com/cdn/assets/KaTeX_Math-BoldItalic.f1035d8d5d.woff",
+      "file": "assets/c8e0ecf5289feadda7f5b57c.woff",
+      "status": "saved",
+      "hash": "850c0af5c2238497febaf5e461d880bf458c341f42f4f330f1b1ab5698b1998e",
+      "bytes": 18668,
+      "contentType": "font/woff",
+      "reused": true
+    },
+    {
+      "url": "https://chatgpt.com/cdn/assets/KaTeX_Math-BoldItalic.a879cf8383.ttf",
+      "file": "assets/3959c1010458a8aee4e2fa4b.ttf",
+      "status": "saved",
+      "hash": "f9377ab0271cda59af24bcffbd46a4d0c8a3572ffafdbb38de2ad5ea7b0d5ee5",
+      "bytes": 31196,
+      "contentType": "font/ttf",
+      "reused": true
+    },
+    {
+      "url": "https://chatgpt.com/cdn/assets/KaTeX_Math-Italic.f28c23acad.woff2",
+      "file": "assets/c95b9915502b0ddb693f1b02.woff2",
+      "status": "saved",
+      "hash": "7af58c5ec8f132a2ddde9027c6d7814decce4d3b822a11192a42a20e2e973264",
+      "bytes": 16440,
+      "contentType": "font/woff2",
+      "reused": true
+    },
+    {
+      "url": "https://chatgpt.com/cdn/assets/KaTeX_Math-Italic.5295ba483a.woff",
+      "file": "assets/374d305c4a1c0ac5d2ff37d2.woff",
+      "status": "saved",
+      "hash": "8a8d244581371912b8f3f5a23e2437cb2a59cd9bcaebb0346e722c05737a2571",
+      "bytes": 18748,
+      "contentType": "font/woff",
+      "reused": true
+    },
+    {
+      "url": "https://chatgpt.com/cdn/assets/KaTeX_Math-Italic.939bc64440.ttf",
+      "file": "assets/599d05beb4fc179ae46cb73d.ttf",
+      "status": "saved",
+      "hash": "08ce98e51b04d58945a301e639e02b6998af29fdfd61a7b8afdd07bbfc479d4a",
+      "bytes": 31308,
+      "contentType": "font/ttf",
+      "reused": true
+    },
+    {
+      "url": "https://chatgpt.com/cdn/assets/KaTeX_SansSerif-Bold.8c5b5494b6.woff2",
+      "file": "assets/62620844c41e7bca5b09fbb1.woff2",
+      "status": "saved",
+      "hash": "e99ae51144bf1232efcc1bfe5add36262c6866b0faab24fa75740e1b98577a62",
+      "bytes": 12216,
+      "contentType": "font/woff2",
+      "reused": true
+    },
+    {
+      "url": "https://chatgpt.com/cdn/assets/KaTeX_SansSerif-Bold.bf59d231c3.woff",
+      "file": "assets/22f966caff1946cf71f28287.woff",
+      "status": "saved",
+      "hash": "ece03cfd83e22c212cdef66feb8442d25a083beb988db3f1883f3f9738d750ba",
+      "bytes": 14408,
+      "contentType": "font/woff",
+      "reused": true
+    },
+    {
+      "url": "https://chatgpt.com/cdn/assets/KaTeX_SansSerif-Bold.94e1e8dc5f.ttf",
+      "file": "assets/c842ceff487eb8876c4344a2.ttf",
+      "status": "saved",
+      "hash": "1ece03f79f95277d57dc7f6b435a74e1379b0d46104a8530286b60ff49369ea0",
+      "bytes": 24504,
+      "contentType": "font/ttf",
+      "reused": true
+    },
+    {
+      "url": "https://chatgpt.com/cdn/assets/KaTeX_SansSerif-Italic.3b1e59b3ba.woff2",
+      "file": "assets/88091f3a692b7adf9f60d3df.woff2",
+      "status": "saved",
+      "hash": "00b26ac825e2095056396e0553b8ac26d3f8ad158c3826e28b4c45b385c4714a",
+      "bytes": 12028,
+      "contentType": "font/woff2",
+      "reused": true
+    },
+    {
+      "url": "https://chatgpt.com/cdn/assets/KaTeX_SansSerif-Italic.7c9bc82b17.woff",
+      "file": "assets/8607b9e01cf58789144965ef.woff",
+      "status": "saved",
+      "hash": "91ee67500cc0129aa0ace3ac5c61ff1692102f0f31d02b69347fba35dcb75bf2",
+      "bytes": 14112,
+      "contentType": "font/woff",
+      "reused": true
+    },
+    {
+      "url": "https://chatgpt.com/cdn/assets/KaTeX_SansSerif-Italic.b4c20c84d8.ttf",
+      "file": "assets/2aa7ec3551828f28519fa6df.ttf",
+      "status": "saved",
+      "hash": "3931dd81faed86ba021bb2bbdc36f5bed9a38d6b4f4077aca59b265aa1b02083",
+      "bytes": 22364,
+      "contentType": "font/ttf",
+      "reused": true
+    },
+    {
+      "url": "https://chatgpt.com/cdn/assets/KaTeX_SansSerif-Regular.ba21ed5f84.woff2",
+      "file": "assets/27404de524a6f1746f14a1c3.woff2",
+      "status": "saved",
+      "hash": "68e8c73ef42afd3ccec58bf0fba302cce448938e7fc020a5e31f8a952eee1342",
+      "bytes": 10344,
+      "contentType": "font/woff2",
+      "reused": true
+    },
+    {
+      "url": "https://chatgpt.com/cdn/assets/KaTeX_SansSerif-Regular.740484788f.woff",
+      "file": "assets/4dc1379c1f34f3868b985e16.woff",
+      "status": "saved",
+      "hash": "11e4dc8a6471ff6d6ee561d53d10fde8f7489e798257ff449c5d37c197435605",
+      "bytes": 12316,
+      "contentType": "font/woff",
+      "reused": true
+    },
+    {
+      "url": "https://chatgpt.com/cdn/assets/KaTeX_SansSerif-Regular.d4d7ba4804.ttf",
+      "file": "assets/eca9f47e87bda24df2586f78.ttf",
+      "status": "saved",
+      "hash": "f36ea897e19f4a2e571d1e900e4e3710e438deb05a842486045ba0a3e616a4ad",
+      "bytes": 19436,
+      "contentType": "font/ttf",
+      "reused": true
+    },
+    {
+      "url": "https://chatgpt.com/cdn/assets/KaTeX_Script-Regular.03e9641d6f.woff2",
+      "file": "assets/551dc5400f80a1e7e27b3b12.woff2",
+      "status": "saved",
+      "hash": "036d4e95149b69ff9bcc0cd55771efeb25ffa3947293e69acd78d5ac328c684b",
+      "bytes": 9644,
+      "contentType": "font/woff2",
+      "reused": true
+    },
+    {
+      "url": "https://chatgpt.com/cdn/assets/KaTeX_Script-Regular.0750571032.woff",
+      "file": "assets/4ff23668fa0842c17b047a99.woff",
+      "status": "saved",
+      "hash": "d96cdf2b3bdd4d64a8fd5f74a4c467f123a8a73931cd435889f08ffaf9bf947a",
+      "bytes": 10588,
+      "contentType": "font/woff",
+      "reused": true
+    },
+    {
+      "url": "https://chatgpt.com/cdn/assets/KaTeX_Script-Regular.fe9cbbe1a0.ttf",
+      "file": "assets/200ffa65236ecfe563870703.ttf",
+      "status": "saved",
+      "hash": "1c67f068fea8bb09bf099c088b1cf64bd27516a6e07f4684344873564bb66a67",
+      "bytes": 16648,
+      "contentType": "font/ttf",
+      "reused": true
+    },
+    {
+      "url": "https://chatgpt.com/cdn/assets/KaTeX_Size1-Regular.eae34984b3.woff2",
+      "file": "assets/202aa240a6f24826db1e51a2.woff2",
+      "status": "saved",
+      "hash": "6b47c40166b6dbe21a5dfca7718413f2147fd2399be1ba605d8ad39cedf25dfe",
+      "bytes": 5468,
+      "contentType": "font/woff2",
+      "reused": true
+    },
+    {
+      "url": "https://chatgpt.com/cdn/assets/KaTeX_Size1-Regular.e1e279cbdd.woff",
+      "file": "assets/6ab83ddc05f3f9284716ac77.woff",
+      "status": "saved",
+      "hash": "c943cc986384f59e86bea5fd7dc50a9c4dfe567a7c05eb40d6790720dead97c9",
+      "bytes": 6496,
+      "contentType": "font/woff",
+      "reused": true
+    },
+    {
+      "url": "https://chatgpt.com/cdn/assets/KaTeX_Size1-Regular.fabc004aab.ttf",
+      "file": "assets/a225b8e988c325ff909a07d4.ttf",
+      "status": "saved",
+      "hash": "95b6d2f1a50173bfedb8c63e1d1c99b10427d0a4df4201cb44513b226951a22b",
+      "bytes": 12228,
+      "contentType": "font/ttf",
+      "reused": true
+    },
+    {
+      "url": "https://chatgpt.com/cdn/assets/KaTeX_Size2-Regular.5916a24fa3.woff2",
+      "file": "assets/1c663983a9321058ec49e447.woff2",
+      "status": "saved",
+      "hash": "d04c54219f9eaec6d4d4fd42dfb28785975a4794d6b2fc71e566b9cd6db842dd",
+      "bytes": 5208,
+      "contentType": "font/woff2",
+      "reused": true
+    },
+    {
+      "url": "https://chatgpt.com/cdn/assets/KaTeX_Size2-Regular.577270225e.woff",
+      "file": "assets/f9af6e7d58c487ec18573124.woff",
+      "status": "saved",
+      "hash": "2014c523c3210bcc166648c4d4cc57f05b747df07a24277bf71c51e67dc79e3d",
+      "bytes": 6188,
+      "contentType": "font/woff",
+      "reused": true
+    },
+    {
+      "url": "https://chatgpt.com/cdn/assets/KaTeX_Size2-Regular.d6b476ecd3.ttf",
+      "file": "assets/93fa58c6a55ae2e35c1cded2.ttf",
+      "status": "saved",
+      "hash": "a6b2099fb555c60e3a0db3a08842ebf1d732c6eb4e4bf44913613bed4fc4e39b",
+      "bytes": 11508,
+      "contentType": "font/ttf",
+      "reused": true
+    },
+    {
+      "url": "https://chatgpt.com/cdn/assets/KaTeX_Size3-Regular.9acaf01c64.woff",
+      "file": "assets/3c13059146b07df130067d37.woff",
+      "status": "saved",
+      "hash": "6ab6b62e9b62dae2c00dd90f791bd10950be0ecc3490d7d6045f51c2e8fe0949",
+      "bytes": 4420,
+      "contentType": "font/woff",
+      "reused": true
+    },
+    {
+      "url": "https://chatgpt.com/cdn/assets/KaTeX_Size3-Regular.a144ef5840.ttf",
+      "file": "assets/a0145c8f21746b14c79b1bd5.ttf",
+      "status": "saved",
+      "hash": "500e04d54f0d51666332c9d2089aa803be22aa878eca539e59fa53c6e522b082",
+      "bytes": 7588,
+      "contentType": "font/ttf",
+      "reused": true
+    },
+    {
+      "url": "https://chatgpt.com/cdn/assets/KaTeX_Size4-Regular.10d95fd3a2.woff2",
+      "file": "assets/f9d68ff1aa8e0e690d921f72.woff2",
+      "status": "saved",
+      "hash": "a4af7d414440a1c1790825cfb700cf9cf43b0f2c4b04f0ebc523011ad9853ec0",
+      "bytes": 4928,
+      "contentType": "font/woff2",
+      "reused": true
+    },
+    {
+      "url": "https://chatgpt.com/cdn/assets/KaTeX_Size4-Regular.7a996c9da2.woff",
+      "file": "assets/99c4e7f2d5a7de68d39bcf00.woff",
+      "status": "saved",
+      "hash": "99f9c6750b489c9462bf04900bd3f939df9b829339daaaaa99ef5495cdddea58",
+      "bytes": 5980,
+      "contentType": "font/woff",
+      "reused": true
+    },
+    {
+      "url": "https://chatgpt.com/cdn/assets/KaTeX_Size4-Regular.fbccdabe0a.ttf",
+      "file": "assets/d6edff18457a05562debbca9.ttf",
+      "status": "saved",
+      "hash": "c647367d1dd4e162468717d020e1fc0f1dc5c26ebfdffbe55261713bf88c5877",
+      "bytes": 10364,
+      "contentType": "font/ttf",
+      "reused": true
+    },
+    {
+      "url": "https://chatgpt.com/cdn/assets/KaTeX_Typewriter-Regular.a8709e3622.woff2",
+      "file": "assets/af2815eb2789b26fda2cf5b7.woff2",
+      "status": "saved",
+      "hash": "71d517d67827787cfabdf186914cc3358eda539e37931941f2b2fd4a21f68c0b",
+      "bytes": 13568,
+      "contentType": "font/woff2",
+      "reused": true
+    },
+    {
+      "url": "https://chatgpt.com/cdn/assets/KaTeX_Typewriter-Regular.6258592bdc.woff",
+      "file": "assets/757e30925e36bc0149d2f940.woff",
+      "status": "saved",
+      "hash": "e14fed02b1aba7ce9f5afd5844b5d0321b22351febc720e0de8b8723527609f7",
+      "bytes": 16028,
+      "contentType": "font/woff",
+      "reused": true
+    },
+    {
+      "url": "https://chatgpt.com/cdn/assets/KaTeX_Typewriter-Regular.d97aaf4a1e.ttf",
+      "file": "assets/99bf57d4485f9b617718aa54.ttf",
+      "status": "saved",
+      "hash": "f01f3e87d9c6a61c0c081ceb577abd864eb00a612f7ac1620dd6915fad2ef5aa",
+      "bytes": 27556,
+      "contentType": "font/ttf",
+      "reused": true
+    },
+    {
+      "url": "https://chatgpt.com/cdn/assets/OpenAISans-Regular.b55d597a01.woff2",
+      "file": "assets/3064ac3342665123e09bfadb.woff2",
+      "status": "saved",
+      "hash": "d8891174b6ee24eb2a18b2545fcc5e2583981d0122ee25dc889658beda98f537",
+      "bytes": 49040,
+      "contentType": "font/woff2",
+      "reused": true
+    },
+    {
+      "url": "https://chatgpt.com/cdn/assets/OpenAISans-Medium.bb7acdf308.woff2",
+      "file": "assets/74941274d69b4f4d1460bf39.woff2",
+      "status": "saved",
+      "hash": "623bb4f58818f629f2edc9c1cabd7eec2fec3163aa867b1c0279e0b54f46d4dd",
+      "bytes": 51304,
+      "contentType": "font/woff2",
+      "reused": true
+    },
+    {
+      "url": "https://chatgpt.com/cdn/assets/OpenAISans-Semibold.ba1cdafb47.woff2",
+      "file": "assets/bd0d192b9cc99d7814ed0483.woff2",
+      "status": "saved",
+      "hash": "e99a4258393f746552665fb8a07a7dcdacf2af4834cc0611148761005c7e006d",
+      "bytes": 56196,
+      "contentType": "font/woff2",
+      "reused": true
+    },
+    {
+      "url": "https://chatgpt.com/cdn/assets/visor-shoulder-left.554fbf1020.svg",
+      "file": "assets/5b4f44249a9189e9aaa61179.svg",
+      "status": "saved",
+      "hash": "f7541a142cf929848a6277b4a6566fb1e53799c9c916d1c7469057d7b77bd846",
+      "bytes": 205,
+      "contentType": "image/svg+xml",
+      "reused": true
+    },
+    {
+      "url": "https://chatgpt.com/cdn/assets/visor-shoulder-right.064b456cae.svg",
+      "file": "assets/fc9a1bdf8b77f407fd99c6bc.svg",
+      "status": "saved",
+      "hash": "a8bbd48408c9e9ee56cb501be9a9d2d363fd3f6b826eddefd94e82a9faaf2a6d",
+      "bytes": 211,
+      "contentType": "image/svg+xml",
+      "reused": true
+    },
+    {
+      "url": "https://chatgpt.com/cdn/assets/visor-body.29a94d1119.svg",
+      "file": "assets/9a06ee9028286e75dd862390.svg",
+      "status": "saved",
+      "hash": "f4f22aec6e6ccbb7e5cb25aa6f00606b089b550cd4207a1c8d12ef5aeb7ce2fd",
+      "bytes": 286,
+      "contentType": "image/svg+xml",
+      "reused": true
+    },
+    {
+      "url": "https://www.w3.org/Icons/w3c_home.png",
+      "file": "assets/a6c475e7613a8fc54ab2abb6.png",
+      "status": "saved",
+      "hash": "590608bf256237f22d84bbab2a0a1afc0d4f20db6350bbac2c6841f1f3e13b01",
+      "bytes": 1848,
+      "contentType": "image/png"
+    }
+  ],
+  "missing": [],
+  "removed": [
+    "form:made-inert",
+    "input:made-inert",
+    "input:made-inert",
+    "input:made-inert",
+    "div:made-inert",
+    "contenteditable:disabled",
+    "button:submission-disabled",
+    "form:made-inert",
+    "input:made-inert",
+    "input:made-inert",
+    "input:made-inert",
+    "form:made-inert",
+    "input:made-inert",
+    "input:made-inert",
+    "input:made-inert",
+    "div:made-inert",
+    "contenteditable:disabled"
+  ],
+  "checks": {
+    "baselineShellHash": "b8d3ebf22ed456de93ac7dcd3466eda78e29cd1c4120d9a4b12a7d32848e2285",
+    "indexShellHash": "b8d3ebf22ed456de93ac7dcd3466eda78e29cd1c4120d9a4b12a7d32848e2285",
+    "originalScriptCount": 0
+  },
+  "assetReuse": {
+    "enabled": true,
+    "reused": 287,
+    "rejected": 0,
+    "reprocessContainers": 0
+  },
+  "slotTextLeaves": {
+    "user": 1,
+    "assistant": 36
+  },
+  "stylePlacement": "original-style-node-positions",
+  "inlinedSprites": []
+}

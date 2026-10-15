@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "origin": "https://chatgpt.com",
+  "capturedAt": "2026-09-21",
+  "state": "public-home-light",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "missing": [
+    "authenticated-conversation",
+    "message-bubbles",
+    "dark",
+    "narrow"
+  ],
+  "fontFamily": "-apple-system-body, ui-sans-serif, -apple-system, system-ui, Segoe UI, Helvetica, Apple Color Emoji, Arial, sans-serif, Segoe UI Emoji, Segoe UI Symbol",
+  "slots": {
+    "body": {
+      "css": {
+        "background-color": "rgb(255, 255, 255)",
+        "color": "rgb(13, 13, 13)",
+        "font-size": "16px",
+        "line-height": "24px"
+      }
+    },
+    "sidebar": {
+      "css": {
+        "background-color": "rgb(255, 255, 255)"
+      },
+      "rect": {
+        "width": 260,
+        "height": 720
+      }
+    },
+    "sidebarToggle": {
+      "css": {
+        "color": "rgb(93, 93, 93)",
+        "border-radius": "8px",
+        "padding": "0px",
+        "gap": "6px"
+      },
+      "rect": {
+        "width": 44,
+        "height": 44
+      }
+    },
+    "newChat": {
+      "css": {
+        "font-size": "14px",
+        "font-weight": "400",
+        "line-height": "20px",
+        "border-radius": "10px",
+        "padding": "6px 10px"
+      },
+      "rect": {
+        "width": 248,
+        "height": 36
+      }
+    },
+    "composer": {
+      "css": {
+        "border": "1px solid rgba(0, 0, 0, 0.2)",
+        "border-radius": "28px",
+        "padding": "7px 10px",
+        "box-shadow": "rgba(0, 0, 0, 0.04) 0px 0px 0px 1px, rgba(0, 0, 0, 0.04) 0px 2px 8px 0px, rgba(0, 0, 0, 0.024) 0px 4px 80px 8px"
+      },
+      "rect": {
+        "width": 768,
+        "height": 52
+      }
+    },
+    "composerText": {
+      "css": {
+        "font-size": "17px",
+        "font-weight": "400",
+        "line-height": "24px"
+      }
+    },
+    "add": {
+      "css": {
+        "border-radius": "999px",
+        "padding": "4px"
+      },
+      "rect": {
+        "width": 44,
+        "height": 44
+      }
+    }
+  },
+  "icons": {
+    "sidebar": "<svg viewBox=\"0 0 20 20\" width=\"20\" height=\"20\" fill=\"currentColor\"><g transform=\"translate(0 -0.000488)\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M14.5 2.66699C16.6401 2.66699 18.375 4.40189 18.375 6.54199V13.459C18.3748 15.5989 16.64 17.334 14.5 17.334H5.5C3.36 17.334 1.62518 15.5989 1.625 13.459V6.54199C1.625 4.40189 3.3599 2.66699 5.5 2.66699H14.5ZM8.375 15.584H14.5C15.6735 15.584 16.6248 14.6324 16.625 13.459V6.54199C16.625 5.36839 15.6736 4.41699 14.5 4.41699H8.375V15.584ZM5.5 4.41699C4.3264 4.41699 3.375 5.36839 3.375 6.54199V13.459C3.37518 14.6324 4.3265 15.584 5.5 15.584H6.625V4.41699H5.5Z\"/></g></svg>",
+    "plus": "<svg viewBox=\"0 0 20 20\" width=\"20\" height=\"20\" fill=\"currentColor\"><path d=\"M10.0005 2.66846C10.3675 2.66872 10.6655 2.96639 10.6655 3.3335V9.33545H16.6665C17.0338 9.33545 17.3315 9.63322 17.3315 10.0005C17.3313 10.3675 17.0336 10.6655 16.6665 10.6655H10.6655V16.6665C10.6655 17.0336 10.3675 17.3313 10.0005 17.3315C9.63322 17.3315 9.33545 17.0338 9.33545 16.6665V10.6655H3.3335C2.96639 10.6655 2.66872 10.3675 2.66846 10.0005C2.66846 9.63322 2.96623 9.33545 3.3335 9.33545H9.33545V3.3335C9.33545 2.96623 9.63322 2.66846 10.0005 2.66846Z\"/></svg>"
+  }
+}

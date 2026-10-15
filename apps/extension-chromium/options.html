@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>FolioVeil · 设置</title><link rel="stylesheet" href="options.css"></head>
+<body><main>
+<header><span class="mark">F</span><div><h1>FolioVeil</h1><p>本地展示与隐私设置 · 独立阅读页</p></div></header>
+<section>
+<h2>阅读展示</h2><p>设置作用于独立阅读页，支持本地 TXT、微信读书和番茄小说。网站来源的原页面保持原样；这里的 ChatGPT 外观仅用于展示阅读内容，不连接 AI。</p>
+<label><span>界面主题</span><select id="colorScheme"><option value="system">跟随系统</option><option value="light">浅色</option><option value="dark">深色</option></select></label>
+<label><span>阅读页界面语言</span><select id="displayLanguage"><option value="zh">中文</option><option value="en">English</option></select></label>
+<label><span>字号 <output id="fontSizeOutput"></output></span><input id="fontSize" type="range" min="14" max="26" step="1"></label>
+<label><span>行高 <output id="lineHeightOutput"></output></span><input id="lineHeight" type="range" min="1.4" max="2.2" step="0.05"></label>
+<label><span>正文宽度 <output id="contentWidthOutput"></output></span><input id="contentWidth" type="range" min="560" max="1000" step="20"></label>
+<label><span>图片展示</span><select id="imageMode"><option value="hidden">禁止展示图片</option><option value="thumbnail">展示缩略图</option><option value="full">全图展示</option></select></label>
+<p>禁止模式仅不自动显示图片，点击文字标记仍可临时查看；原站可能已加载图片资源。</p>
+<label><span>阅读入口名称</span><input id="sessionName" type="text" maxlength="60"></label>
+<p>左侧默认的“项目方案讨论”是实际阅读内容，可在这里改名。本地 TXT 的目录位于左侧“周报内容整理”；网站来源没有此目录。</p>
+<label class="checkbox"><input id="sidebarCollapsed" type="checkbox"><span>收起侧栏</span></label>
+</section>
+<section>
+<h2>隐藏控件与快捷键</h2><p>操作面板默认收起。鼠标在指定角落停留可唤出，快速经过不会触发。</p>
+<label class="checkbox"><input id="hotzoneEnabled" type="checkbox"><span>启用鼠标热区</span></label>
+<label><span>热区位置</span><select id="hotzoneCorner"><option value="top-right">右上角</option><option value="top-left">左上角</option><option value="bottom-right">右下角</option><option value="bottom-left">左下角</option></select></label>
+<label><span>热区停留时间（ms）</span><input id="hotzoneDelay" type="number" min="200" max="2000" step="100"></label>
+<label><span>离开后收起延迟（ms）</span><input id="panelHideDelay" type="number" min="200" max="2000" step="100"></label>
+<label class="checkbox"><input id="arrowNavigation" type="checkbox"><span>左右键在已显示的正文内移动</span></label>
+<p id="commandBindings"></p><button id="editCommands" type="button">修改浏览器快捷键</button>
+</section>
+<section>
+<h2>隐私与本地数据</h2><p>正文、图片和真实标题仅保存在当前页面内存。没有 AI 请求或消息发送，不上传内容。</p>
+<p>独立阅读页使用中性标题。原阅读标签保留真实标题和界面。</p>
+<label class="checkbox"><input id="autoPrivacy" type="checkbox"><span>窗口失焦或切换标签时自动遮挡</span></label>
+<p>返回后保持隐私界面；使用独立隐私快捷键或唤出面板后选择“继续”。扩展不能隐藏真实地址栏、浏览历史、网络或设备管理记录，也不保证截图或任务切换预览完全不留痕。</p>
+<div class="actions"><button id="exportLogs" type="button">导出本地诊断</button><button id="clearData" class="danger" type="button">重置显示设置与诊断</button></div>
+</section><div id="saved" role="status" aria-live="polite"></div></main><script type="module" src="options.js"></script></body></html>

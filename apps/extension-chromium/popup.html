@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>FolioVeil</title>
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body>
+    <main>
+      <header><span class="mark">F</span><div><strong>FolioVeil</strong><small data-i18n="popupTagline"></small></div></header>
+      <section class="disclosure">
+        <strong data-i18n="popupPurposeTitle"></strong>
+        <p data-i18n="popupPurposeBody"></p>
+      </section>
+      <section class="status-card">
+        <div><span class="status-dot"></span><span id="statusText"></span></div>
+        <button id="toggleButton" type="button"></button>
+      </section>
+      <button id="txtButton" class="wide secondary" type="button">打开本地 TXT 阅读页</button>
+      <button id="helpButton" class="wide secondary" type="button" aria-controls="helpPanel" aria-expanded="false">显示操作说明</button>
+      <section id="helpPanel" class="help-panel" aria-label="操作说明" hidden>
+        <h2>从这里开始</h2>
+        <ol>
+          <li><strong>本地 TXT：</strong>点击“打开本地 TXT 阅读页”，再选择电脑上的 .txt 文件。</li>
+          <li><strong>微信读书 / 番茄小说：</strong>先在网站打开书籍正文页，再点击“打开独立阅读页”。首次无内容时，刷新来源网页后重试。</li>
+        </ol>
+        <h2>如何获取新内容</h2>
+        <p>阅读页底部输入区右侧的<strong>向上箭头（发送按钮）</strong>用于获取新内容，无需输入文字。微信读书读取需要一些时间，请稍等。</p>
+        <h2>阅读页左侧的两个入口</h2>
+        <p><strong>“项目方案讨论”</strong>是实际阅读内容；若在设置中改过阅读入口名称，这里会显示新名称。</p>
+        <p><strong>“周报内容整理”</strong>在阅读本地 TXT 时是目录。选章节后，可点“返回阅读”或“项目方案讨论”回到正文；网站来源没有此目录。</p>
+        <p class="help-note">操作面板可调整外观与隐私；输入框不向 AI 发送文字。原网站标签仍保留真实页面。</p>
+      </section>
+      <section id="reconnectSection" class="reconnect" hidden>
+        <label for="reconnectSession">连接到已断开的阅读页</label>
+        <p>仅在你选择并确认后，把当前来源正文连接到该阅读页。</p>
+        <select id="reconnectSession" aria-label="选择已断开的阅读页"></select>
+        <button id="reconnectButton" class="wide secondary" type="button" disabled>连接所选阅读页</button>
+      </section>
+      <button id="reloadButton" class="wide secondary" type="button" data-i18n="reloadPage" hidden></button>
+      <button id="privacyButton" class="wide secondary" type="button" data-i18n="privacyMode"></button>
+      <button id="controlsButton" class="wide secondary" type="button" data-i18n="commandToggleControls"></button>
+      <button id="optionsButton" class="link" type="button" data-i18n="openSettings"></button>
+    </main>
+    <script type="module" src="popup.js"></script>
+  </body>
+</html>

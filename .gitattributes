@@ -1,0 +1,16 @@
+# Preserve binary fixtures and exact capture bytes across platforms.
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.woff binary
+*.woff2 binary
+
+# Markdown's trailing spaces may intentionally represent line breaks.
+*.md whitespace=-blank-at-eol
+
+# These are captured / generated evidence, not hand-formatted source files.
+experiments/chatgpt-local-replay/capture.json -text linguist-generated
+experiments/chatgpt-local-replay/replay/*.html -text -whitespace linguist-generated
+experiments/chatgpt-local-replay/replay/assets/** -text -whitespace linguist-vendored
+artifacts/pdf-p0/*.txt -text -whitespace

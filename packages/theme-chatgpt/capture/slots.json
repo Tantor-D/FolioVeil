@@ -1,0 +1,13 @@
+{
+  "state": "public-home-light",
+  "slots": {
+    "body": "body",
+    "sidebar": "aside[aria-label='侧边栏']",
+    "sidebarToggle": "button[aria-label='关闭边栏']",
+    "newChat": "a[aria-label='新聊天']",
+    "composer": "form:has(#mobile-composer-prompt)",
+    "composerText": "#mobile-composer-prompt",
+    "add": "button[aria-label='添加文件等']",
+    "dictation": "button[aria-label='开始听写']"
+  }
+}

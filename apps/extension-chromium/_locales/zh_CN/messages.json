@@ -1,0 +1,155 @@
+{
+  "appName": {
+    "message": "FolioVeil"
+  },
+  "appDescription": {
+    "message": "在独立标签中阅读本地 TXT、微信读书或番茄小说。"
+  },
+  "assistantName": {
+    "message": "阅读工作区"
+  },
+  "untitledBook": {
+    "message": "当前阅读"
+  },
+  "untitledChapter": {
+    "message": "阅读会话"
+  },
+  "restoreNative": {
+    "message": "恢复原始页面"
+  },
+  "privacyMode": {
+    "message": "隐私界面"
+  },
+  "exitPrivacy": {
+    "message": "返回阅读"
+  },
+  "previousPage": {
+    "message": "上一页"
+  },
+  "nextPage": {
+    "message": "下一页"
+  },
+  "tableOfContents": {
+    "message": "目录"
+  },
+  "toggleSidebar": {
+    "message": "切换侧栏"
+  },
+  "statusReady": {
+    "message": "原站阅读控件保持可用"
+  },
+  "decorativeComposer": {
+    "message": "询问当前阅读内容（即将推出）"
+  },
+  "privacyHeading": {
+    "message": "本周计划整理"
+  },
+  "privacyBody": {
+    "message": "复核待办事项，确认优先级，并准备下一次项目进展更新。"
+  },
+  "adapterFailed": {
+    "message": "FolioVeil 无法安全适配当前页面，已恢复原始页面。"
+  },
+  "adapterWaiting": {
+    "message": "请打开支持的网站阅读页，并等待章节内容加载。"
+  },
+  "commandTogglePrivacy": {
+    "message": "切换隐私界面"
+  },
+  "popupTagline": {
+    "message": "安静的网页阅读"
+  },
+  "popupPurposeTitle": {
+    "message": "仅在你主动启用后运行"
+  },
+  "popupPurposeBody": {
+    "message": "支持本地 TXT、微信读书和番茄小说。在本机独立阅读；原网站页面保持原样，不向 AI 发送正文。"
+  },
+  "openSettings": {
+    "message": "外观与隐私设置"
+  },
+  "unsupportedPage": {
+    "message": "请打开微信读书或番茄小说的具体阅读页"
+  },
+  "activeOnPage": {
+    "message": "阅读界面已启用"
+  },
+  "waitingForContent": {
+    "message": "正在等待内容"
+  },
+  "readyToEnable": {
+    "message": "可在当前页面启用"
+  },
+  "enableOnWeRead": {
+    "message": "启用"
+  },
+  "disableOnWeRead": {
+    "message": "恢复"
+  },
+  "reloadRequired": {
+    "message": "请刷新当前标签页后重试"
+  },
+  "settingsSubtitle": {
+    "message": "本地外观与数据控制"
+  },
+  "appearance": {
+    "message": "外观"
+  },
+  "nativeLayoutNote": {
+    "message": "这些设置作用于独立阅读页。重新加载扩展后，请刷新已打开的来源页和阅读页。"
+  },
+  "colorScheme": {
+    "message": "颜色模式"
+  },
+  "systemTheme": {
+    "message": "跟随系统"
+  },
+  "lightTheme": {
+    "message": "亮色"
+  },
+  "darkTheme": {
+    "message": "暗色"
+  },
+  "fontSize": {
+    "message": "正文字号"
+  },
+  "lineHeight": {
+    "message": "正文行高"
+  },
+  "contentWidth": {
+    "message": "正文宽度"
+  },
+  "privacyAndData": {
+    "message": "隐私与本地数据"
+  },
+  "localOnlyExplanation": {
+    "message": "网站正文在原页面与独立阅读页之间于本机传递；本地 TXT 正文只保留在阅读页内存。设置和 TXT 续读位置保存在扩展本地数据中。"
+  },
+  "anonymousTelemetry": {
+    "message": "允许匿名适配器健康遥测"
+  },
+  "telemetryNotImplemented": {
+    "message": "当前构建不包含遥测服务地址；此选项默认关闭。"
+  },
+  "exportLogs": {
+    "message": "导出本地诊断"
+  },
+  "clearLocalData": {
+    "message": "清除本地数据"
+  },
+  "localDataCleared": {
+    "message": "本地数据已清除"
+  },
+  "settingsSaved": {
+    "message": "设置已保存"
+  },
+  "commandToggleControls": {
+    "message": "显示 / 隐藏操作面板"
+  },
+  "contentUnavailable": {
+    "message": "暂时无法继续，可唤出面板重试"
+  },
+  "reloadPage": {
+    "message": "刷新当前页"
+  }
+}

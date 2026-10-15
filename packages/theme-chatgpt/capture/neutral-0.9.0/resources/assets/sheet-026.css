@@ -1,0 +1,5 @@
+@layer components {
+  .heroSubtitle-p6J1Yk { font-size: 15px; line-height: 20px; }
+  .informationalDescription-k7sdMK { font-size: 17px; }
+  .banner-D_Hc96 { width: min(100%, clamp(434px, 100% - 64px, 664px)); margin-inline: auto; }
+}

@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <style>
+      .readerChapterContent {
+        position: relative;
+        width: 860px;
+        height: 640px;
+        font-size: 21px;
+        line-height: 33px;
+        color: rgb(202, 208, 220);
+        background-color: transparent;
+      }
+      .preRenderContainer { display: none; }
+      .renderTargetContainer { position: relative; width: 860px; height: 640px; }
+      .wr_canvasContainer { position: absolute; top: 24px; left: 38px; }
+      .selectionLayer { position: absolute; top: 24px; left: 38px; color: transparent; }
+      .selectionLayer p {
+        position: absolute;
+        top: 66px;
+        left: 12px;
+        width: 720px;
+        max-width: none;
+        margin: 0;
+        font-size: 21px;
+        line-height: 33px;
+        color: transparent;
+      }
+    </style>
+  </head>
+  <body>
+    <header><h1 class="readerTopBar_title">合成测试读物</h1></header>
+    <div class="readerChapterContent_helper">Synthetic layout helper</div>
+    <div class="preRenderContainer">
+      <div class="readerChapterContent" data-copy="measurement">Synthetic measurement copy</div>
+    </div>
+    <div hidden>
+      <div class="readerChapterContent" data-copy="hidden">Synthetic hidden copy</div>
+    </div>
+    <main>
+      <div class="readerChapterContent" id="native-reader" style="--native-page: 3">
+        <h2 class="readerChapterContent_title">合成测试章节</h2>
+        <div class="preRenderContainer" id="native-source">
+          <div class="preRenderContent">
+            <p>这是一段专门用于回归测试的合成内容，不来自图书或用户资料。</p>
+            <p>隐藏的排版源必须保持隐藏，原生渲染层负责显示本页。</p>
+          </div>
+        </div>
+        <div class="renderTargetContainer" id="native-renderer">
+          <div class="wr_canvasContainer"><canvas width="720" height="560"></canvas></div>
+          <div class="selectionLayer"><p id="native-selection">Synthetic selectable line</p></div>
+        </div>
+      </div>
+    </main>
+    <button aria-label="上一页">上一页</button>
+    <button aria-label="目录">目录</button>
+    <button aria-label="下一页">下一页</button>
+  </body>
+</html>

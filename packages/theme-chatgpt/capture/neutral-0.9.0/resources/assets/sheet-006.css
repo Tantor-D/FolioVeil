@@ -1,0 +1,16 @@
+@layer components {
+  .daybreak-VsXdEH { isolation: isolate; padding-inline-end: clamp(calc(var(--spacing) * 8), 18%, calc(var(--spacing) * 32)); position: relative; }
+  .daybreak-VsXdEH::before { content: ""; z-index: -1; pointer-events: none; background: radial-gradient(ellipse 152px 80px at 76% calc(100% + 41px), var(--color-background-panel,var(--color-background-primary-soft-alpha)) calc(100% - 2px), var(--lightningcss-light,#f28a1f) var(--lightningcss-dark,#ffd776) 100%, var(--lightningcss-light,#ffb23b99) var(--lightningcss-dark,#ff912442) calc(100% + 2px), var(--lightningcss-light,#f28a1f40) var(--lightningcss-dark,#ff912426) 122%, var(--lightningcss-light,#f28a1f0d) var(--lightningcss-dark,#0000) 152%, transparent 180%); width: min(250px, 35%); position: absolute; inset-block: 0px; inset-inline-end: 0px; mask-image: linear-gradient(90deg, rgba(0, 0, 0, 0) 25%, rgb(0, 0, 0) 70%); }
+  .stageCompact-RORVUE { z-index: 100; pointer-events: none; padding-bottom: calc(var(--spacing) * 4 + env(safe-area-inset-bottom,0px)); inset-inline: 0px; position: absolute; bottom: 0px; container: cookie-consent / inline-size; }
+  .stageCompactGutter-pPPUd_ { padding-inline: calc(var(--spacing) * 4); }
+  @container cookie-consent (width >= 40rem) {
+  .stageCompactGutter-pPPUd_ { padding-inline: calc(var(--spacing) * 6); }
+}
+  @container cookie-consent (width >= 64rem) {
+  .stageCompactGutter-pPPUd_ { padding-inline: calc(var(--spacing) * 16); }
+}
+  .stageCompactBanner-BKQbb7 { pointer-events: auto; max-width: var(--thread-content-compact-max-width); margin-inline: auto; }
+  @container cookie-consent (width >= 64rem) {
+  .stageCompactBanner-BKQbb7 { max-width: var(--thread-content-expanded-max-width); }
+}
+}

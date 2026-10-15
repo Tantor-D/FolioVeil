@@ -1,0 +1,155 @@
+{
+  "appName": {
+    "message": "FolioVeil"
+  },
+  "appDescription": {
+    "message": "Read local TXT, WeRead or Fanqie content in an independent tab."
+  },
+  "assistantName": {
+    "message": "Reading workspace"
+  },
+  "untitledBook": {
+    "message": "Current reading"
+  },
+  "untitledChapter": {
+    "message": "Reading session"
+  },
+  "restoreNative": {
+    "message": "Restore original page"
+  },
+  "privacyMode": {
+    "message": "Privacy scene"
+  },
+  "exitPrivacy": {
+    "message": "Return to reading"
+  },
+  "previousPage": {
+    "message": "Previous page"
+  },
+  "nextPage": {
+    "message": "Next page"
+  },
+  "tableOfContents": {
+    "message": "Contents"
+  },
+  "toggleSidebar": {
+    "message": "Toggle sidebar"
+  },
+  "statusReady": {
+    "message": "Original reading controls remain active"
+  },
+  "decorativeComposer": {
+    "message": "Ask about this reading (coming later)"
+  },
+  "privacyHeading": {
+    "message": "Weekly planning notes"
+  },
+  "privacyBody": {
+    "message": "Review open items, confirm priorities, and prepare the next project update."
+  },
+  "adapterFailed": {
+    "message": "FolioVeil could not safely adapt this page. The original page has been restored."
+  },
+  "adapterWaiting": {
+    "message": "Open a supported reading page and wait for the chapter to load."
+  },
+  "commandTogglePrivacy": {
+    "message": "Toggle privacy scene"
+  },
+  "popupTagline": {
+    "message": "Quiet web reading"
+  },
+  "popupPurposeTitle": {
+    "message": "Runs only when you enable it"
+  },
+  "popupPurposeBody": {
+    "message": "Read local TXT, WeRead, and Fanqie content in a separate local tab. The original website stays as it is, and reading text is not sent to AI."
+  },
+  "openSettings": {
+    "message": "Appearance and privacy settings"
+  },
+  "unsupportedPage": {
+    "message": "Open a WeRead or Fanqie book reading page"
+  },
+  "activeOnPage": {
+    "message": "Reading view is active"
+  },
+  "waitingForContent": {
+    "message": "Waiting for content"
+  },
+  "readyToEnable": {
+    "message": "Ready on this page"
+  },
+  "enableOnWeRead": {
+    "message": "Enable"
+  },
+  "disableOnWeRead": {
+    "message": "Restore"
+  },
+  "reloadRequired": {
+    "message": "Reload this tab, then try again"
+  },
+  "settingsSubtitle": {
+    "message": "Local appearance and data controls"
+  },
+  "appearance": {
+    "message": "Appearance"
+  },
+  "nativeLayoutNote": {
+    "message": "These settings apply to the separate reading tab. After reloading the extension, refresh any open source and reading tabs."
+  },
+  "colorScheme": {
+    "message": "Color scheme"
+  },
+  "systemTheme": {
+    "message": "Follow system"
+  },
+  "lightTheme": {
+    "message": "Light"
+  },
+  "darkTheme": {
+    "message": "Dark"
+  },
+  "fontSize": {
+    "message": "Text size"
+  },
+  "lineHeight": {
+    "message": "Line height"
+  },
+  "contentWidth": {
+    "message": "Content width"
+  },
+  "privacyAndData": {
+    "message": "Privacy and local data"
+  },
+  "localOnlyExplanation": {
+    "message": "Website text passes locally between the source and reading tabs. Local TXT text stays in reading-tab memory. Preferences and TXT reading positions are saved in extension storage."
+  },
+  "anonymousTelemetry": {
+    "message": "Allow anonymous adapter health telemetry"
+  },
+  "telemetryNotImplemented": {
+    "message": "No telemetry endpoint is included in this build; this preference remains off by default."
+  },
+  "exportLogs": {
+    "message": "Export local diagnostics"
+  },
+  "clearLocalData": {
+    "message": "Clear local data"
+  },
+  "localDataCleared": {
+    "message": "Local data cleared"
+  },
+  "settingsSaved": {
+    "message": "Settings saved"
+  },
+  "commandToggleControls": {
+    "message": "Show / hide controls"
+  },
+  "contentUnavailable": {
+    "message": "Content unavailable; open controls to retry"
+  },
+  "reloadPage": {
+    "message": "Reload this page"
+  }
+}
