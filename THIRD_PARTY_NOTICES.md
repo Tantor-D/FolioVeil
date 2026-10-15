@@ -19,3 +19,9 @@
 构建和测试依赖记录在 `package.json` 与 `package-lock.json`。它们各自保留上游许可证；根目录 MIT 不替代依赖的许可证。发布包附带 `THIRD_PARTY_LICENSES.txt`，列出构建依赖及其中实际打包依赖的本地许可文本。
 
 微信读书、番茄小说及其标识属于各自权利人。本项目不会授权用户访问其无权阅读的内容。
+
+## 番茄小说字体映射
+
+字体映射思路和字符数值对照参考并交叉核对自 [romcere/fanqienovel-decryptor](https://github.com/romcere/fanqienovel-decryptor) 的 [dicts/font_map.py](https://github.com/romcere/fanqienovel-decryptor/blob/main/dicts/font_map.py)，感谢作者的公开分享。对应实现为 `packages/adapter-fanqie/src/font-map.ts`；本项目不调用其章节下载接口。
+
+上述致谢用于说明参考来源，不表示本项目获得了对上游实现或映射数据的重新授权，也不表示上游作者为 FolioVeil 背书。上游仓库当前未见独立 LICENSE 文件，不能将其视为已按 MIT 授权。
