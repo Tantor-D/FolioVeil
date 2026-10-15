@@ -2,11 +2,13 @@
 
 桌面浏览器上的本地阅读扩展，支持 **本地 TXT、微信读书和番茄小说**。阅读内容显示在独立标签页，采用 ChatGPT 风格界面；不提供 AI 对话，也不将阅读正文提交给 ChatGPT。
 
-**[下载插件 ZIP](https://github.com/Tantor-D/FolioVeil/releases/latest) · [安装教程](INSTALL.md) · [在线图文使用指南](https://tantor-d.github.io/FolioVeil/) · [问题反馈](https://github.com/Tantor-D/FolioVeil/issues)**
+**[发行页面](https://github.com/Tantor-D/FolioVeil/releases) · [安装教程](INSTALL.md) · [在线图文使用指南](https://tantor-d.github.io/FolioVeil/) · [问题反馈](https://github.com/Tantor-D/FolioVeil/issues)**
 
 ## 安装
 
-1. 从 [Releases](https://github.com/Tantor-D/FolioVeil/releases/latest) 下载 `FolioVeil-1.0.0-chromium.zip`，解压到固定文件夹。不要下载 GitHub 自动生成的 Source code 压缩包来安装。
+**当前尚未发布插件 ZIP。请勿使用 GitHub 自动生成的 Source code 压缩包安装。**
+
+1. 从 [Releases](https://github.com/Tantor-D/FolioVeil/releases) 下载 `FolioVeil-1.0.0-chromium.zip`，解压到固定文件夹。不要下载 GitHub 自动生成的 Source code 压缩包来安装。
 2. 打开 Edge 的 `edge://extensions`，或 Chrome 的 `chrome://extensions`，开启“开发人员模式”。
 3. 点击“加载解压缩的扩展”，选择解压后**直接包含 `manifest.json`** 的文件夹，再将 FolioVeil 固定到工具栏。
 
