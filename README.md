@@ -16,7 +16,7 @@
 2. 打开 Edge 的 `edge://extensions`，或 Chrome 的 `chrome://extensions`，开启“开发人员模式”。
 3. 点击“加载解压缩的扩展”，选择解压后**直接包含 `manifest.json`** 的文件夹，再将 FolioVeil 固定到工具栏。
 
-完整步骤和更新方法见 [INSTALL.md](INSTALL.md)。当前版本 **1.0.0**；手动安装与扩展商店上架状态互相独立。主要实站验证使用桌面 Edge；Chrome 使用相同的 Chromium 扩展包，仍需按实际浏览器检查。
+完整步骤和更新方法见 [INSTALL.md](INSTALL.md)。当前源码版本 **1.0.1**（修复商店上传的重复清单问题）；已发布 ZIP 版本以 Releases 为准（[1.0.1 修复说明](docs/releases/1.0.1.md)）；手动安装与扩展商店上架状态互相独立。主要实站验证使用桌面 Edge；Chrome 使用相同的 Chromium 扩展包，仍需按实际浏览器检查。
 
 ## 开始阅读
 

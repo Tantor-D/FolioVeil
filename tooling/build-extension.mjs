@@ -4,6 +4,7 @@ import { createHash } from 'node:crypto';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
 import { buildCapturedTheme, capturedThemeInputs } from './build-captured-theme.mjs';
+import { validateExtensionPackage } from './extension-package.mjs';
 
 const root = process.cwd();
 const source = path.join(root, 'apps/extension-chromium');
@@ -28,7 +29,7 @@ async function fingerprint() {
   await tree(path.join(root, 'apps'));
   await tree(path.join(root, 'packages'));
   for (const target of await capturedThemeInputs(root)) add(path.relative(root, target).split(path.sep).join('/'), await readFile(target));
-  for (const name of ['build-captured-theme.mjs', '../experiments/chatgpt-local-replay/localize.mjs']) add(name, await readFile(new URL(name, import.meta.url)));
+  for (const name of ['build-captured-theme.mjs', 'extension-package.mjs', '../experiments/chatgpt-local-replay/localize.mjs']) add(name, await readFile(new URL(name, import.meta.url)));
   for (const file of ['package.json', 'package-lock.json']) {
     try { add(file, await readFile(path.join(root, file))); }
     catch (error) { if (error.code !== 'ENOENT') throw error; }
@@ -89,6 +90,7 @@ async function rebuild() {
           await mkdir(path.dirname(target), { recursive: true }); await writeFile(target, file.contents);
         }
       }
+      await validateExtensionPackage(extensionStage);
       if (buildId !== await fingerprint()) continue;
       const info = `${JSON.stringify({ version: manifest.version, buildId }, null, 2)}\n`;
       await writeFile(path.join(extensionStage, 'build-info.json'), info);

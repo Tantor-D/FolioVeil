@@ -51,7 +51,7 @@ export async function loadCapturedFrame(packageURL = new URL('themes/chatgpt/', 
     try { return await response.arrayBuffer(); }
     catch { return failure('resource-unreadable'); }
   };
-  const manifestBytes = await read('manifest.json');
+  const manifestBytes = await read('theme-manifest.json');
   if (manifestBytes.byteLength > 2_000_000) return failure('manifest-too-large');
   let parsed: unknown;
   try { parsed = JSON.parse(new TextDecoder().decode(manifestBytes)); }

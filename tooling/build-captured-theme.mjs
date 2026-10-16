@@ -256,7 +256,7 @@ export async function buildCapturedTheme(root, output) {
       substitutedUnusedAssets: (localized.substitutedUnusedAssets ?? []).map(({ file, reason }) => ({ file, reason }))
     };
     manifest.packageHash = hash(JSON.stringify(manifest));
-    await writeFile(path.join(output, 'manifest.json'), json(manifest));
+    await writeFile(path.join(output, 'theme-manifest.json'), json(manifest));
     return manifest;
   } finally { await rm(temporary, { recursive: true, force: true }); }
 }

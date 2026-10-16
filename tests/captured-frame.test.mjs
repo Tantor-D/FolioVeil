@@ -1,5 +1,5 @@
 import { afterAll, afterEach, beforeAll, describe, expect, it, vi } from 'vitest';
-import { mkdtemp, readFile, rm } from 'node:fs/promises';
+import { mkdtemp, readFile, readdir, rm } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import path from 'node:path';
 import { JSDOM } from 'jsdom';
@@ -19,6 +19,12 @@ afterAll(async () => { if (directory) await rm(directory, { recursive: true, for
 afterEach(() => vi.unstubAllGlobals());
 
 describe('original captured document package', () => {
+  it('uses a theme-specific filename so the extension ZIP has no nested manifest.json', async () => {
+    const files = await readdir(directory);
+    expect(files).toContain('theme-manifest.json');
+    expect(files).not.toContain('manifest.json');
+    expect(JSON.parse(await readFile(path.join(directory, 'theme-manifest.json'), 'utf8'))).toEqual(manifest);
+  });
   it('keeps the actual outer DOM/classes and records every local resource and captured content branch', async () => {
     const config = JSON.parse(await readFile('packages/theme-chatgpt/capture/document-source.json', 'utf8'));
     const capture = JSON.parse(await readFile(config.capture, 'utf8'));
@@ -81,7 +87,7 @@ describe('original captured document package', () => {
     let active = 0;
     const signals = [];
     const fetch = vi.fn(async (value, options) => {
-      if (new URL(value).pathname.endsWith('/manifest.json')) return new Response(JSON.stringify(manifest));
+      if (new URL(value).pathname.endsWith('/theme-manifest.json')) return new Response(JSON.stringify(manifest));
       signals.push(options.signal);
       if (new URL(value).pathname.endsWith('/frame.html')) throw new TypeError('Failed to fetch a private local path');
       active++;

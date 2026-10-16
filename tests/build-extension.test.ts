@@ -54,6 +54,14 @@ afterEach(async () => {
 });
 
 describe('build identity', () => {
+  it('rejects a nested extension manifest before publishing the built package', async () => {
+    const root = await fixture();
+    const nested = path.join(root, 'apps/extension-chromium/icons/nested');
+    await mkdir(nested, { recursive: true });
+    await writeFile(path.join(nested, 'manifest.json'), '{}');
+    await expect(execute(process.execPath, [script], { cwd: root })).rejects.toThrow(/extension-package:multiple-manifests/);
+    await expect(readFile(path.join(root, 'dist/extension-chromium/manifest.json'))).rejects.toMatchObject({ code: 'ENOENT' });
+  });
   it('changes the build identity when a packaged font changes without any source-code change', async () => {
     const root = await fixture();
     const assets = path.join(root, 'packages/theme-chatgpt/assets');
